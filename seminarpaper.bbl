@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+
+\bibitem{4004}
+{The Intel 4004 Home}, 2003.
+\newblock http://www.intel4004.com/.
+
+\bibitem{650sim}
+S.~Balay.
+\newblock {IBM 650 Simulator}.
+\newblock http://infinitefish.com/650/.
+
+\bibitem{vice}
+A.~Boose.
+\newblock {The VICE Emulator}, 2004.
+\newblock http://www.viceteam.org/.
+
+\bibitem{Brom98}
+A.G. Bromley.
+\newblock {Charles Babbage's Analytical Engine, 1838}.
+\newblock {\em {Annals of Computer History, IEEE}}, 20:29--45, 1998.
+
+\bibitem{thermal2}
+Tom Krazit.
+\newblock Intel looks to clarify strategy and execution.
+\newblock {\em {Computer Weekly (http://www.computerweekly.com)}}, September
+  2004.
+
+\bibitem{herculessim}
+J.~Maynard.
+\newblock {The Hercules System/370, ESA/390, and z/Architecture Emulator},
+  2003.
+\newblock http://www.conmicro.cx/hercules/.
+
+\bibitem{thermal1}
+Rick Merritt.
+\newblock {Multicore MPUs go mainstream}.
+\newblock {\em {EE Times (http://www.eetimes.com)}}, 9 2004.
+
+\bibitem{stonx}
+F.~Naumann.
+\newblock {An Atari ST emulator for Unix/X and SVGAlib}, 2004.
+\newblock http://sourceforge.net/projects/stonx/.
+
+\bibitem{rojas}
+R.~Rojas.
+\newblock {\em {Die Rechenmaschinen Von Konrad Zuse (in German)}}.
+\newblock {Springer Verlag}, 1998.
+
+\bibitem{zib}
+R.~Rojas.
+\newblock {Konrad Zuse Internet Archiv}, 2001.
+\newblock http://www.zib.de/zuse.
+
+\bibitem{robotron}
+Ziermann.
+\newblock {Der Mikrorechnerbausatz Z1013 - Ein Computer f{\"u}r Hobbybastler
+  (in German)}, 1999.
+\newblock http://nirvana.informatik.uni-halle.de/~ziermann/DE/z1013.html.
+
+\end{thebibliography}
