@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  22 OCT 2024 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  22 OCT 2024 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,12 +264,6 @@ File: test.pdf Graphic file (type pdf)
 <use test.pdf>
 Package pdftex.def Info: test.pdf  used on input line 86.
 (pdftex.def)             Requested size: 435.32419pt x 142.44527pt.
-
-LaTeX Warning: Reference `introduction' on page 1 undefined on input line 102.
-
-
-LaTeX Warning: Reference `introduction' on page 1 undefined on input line 113.
-
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
 18.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
@@ -286,6 +280,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} 
 <./TUM-Logo-102.png>]
+
+LaTeX Warning: Citation `ren_synergy_2021' on page 2 undefined on input line 18
+2.
+
+
+LaTeX Warning: Citation `roshan_adaptive_2021' on page 2 undefined on input lin
+e 182.
+
+
 Underfull \hbox (badness 3668) in paragraph at lines 184--184
 []\OT1/cmr/bx/n/14.4 Challenges and Fu-ture of
  []
@@ -296,66 +299,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--218
  []
 
 [2 <./test.pdf>] (./seminarpaper.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\OT1/cmr/m/n/10 The In-tel 4004 Home, 2003.
+Underfull \hbox (badness 3780) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
+) [3
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
-[]\OT1/cmr/m/n/10 S. Balay.  IBM 650 Sim-u-la-tor.
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 13--16
-[]\OT1/cmr/m/n/10 A. Boose.  The VICE Em-u-la-tor, 2004.
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 23--27
-[]\OT1/cmr/m/n/10 Tom Krazit.  In-tel looks to clar-ify strat-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-\OT1/cmr/m/n/10 egy and ex-e-cu-tion.  \OT1/cmr/m/it/10 Com-puter Weekly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-\OT1/cmr/m/it/10 (http://www.computerweekly.com)\OT1/cmr/m/n/10 , Septem-
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 29--33
-[]\OT1/cmr/m/n/10 J. May-nard.  The Her-cules Sys-tem/370,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
-[]\OT1/cmr/m/n/10 F. Nau-mann.  An Atari ST em-u-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--43
-\OT1/cmr/m/n/10 tor for Unix/X and SV-GAlib, 2004.
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 55--59
-[]\OT1/cmr/m/n/10 Ziermann.  Der Mikrorech-ner-bausatz Z1013
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 55--59
-\OT1/cmr/m/n/10 - Ein Com-puter f^^?ur Hob-by-bastler (in Ger-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 55--59
-\OT1/cmr/m/n/10 man), 1999.  http://nirvana.informatik.uni-
- []
-
-) [3] (./seminarpaper.aux)
+] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -365,19 +315,16 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 
-Package rerunfilecheck Warning: File `seminarpaper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `seminarpaper.out':
-(rerunfilecheck)             Before: 0F9BAF74630ED25838D699BF09E70685;1710
-(rerunfilecheck)             After:  23B73BE2E813BC96C50A85F668C71911;1702.
+Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
+(rerunfilecheck)             Checksum: 23B73BE2E813BC96C50A85F668C71911;1702.
  ) 
 Here is how much of TeX's memory you used:
- 8446 strings out of 474116
- 131591 string characters out of 5743682
+ 8431 strings out of 474116
+ 131547 string characters out of 5743682
  1943187 words of memory out of 5000000
- 30700 multiletter control sequences out of 15000+600000
+ 30692 multiletter control sequences out of 15000+600000
  563312 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,396b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -392,10 +339,10 @@ al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (3 pages, 152212 bytes).
+Output written on seminarpaper.pdf (3 pages, 149571 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
