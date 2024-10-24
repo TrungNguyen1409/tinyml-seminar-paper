@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  22 OCT 2024 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  24 OCT 2024 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,66 +250,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 38.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []\OT1/cmr/bx/n/12 Context and Im-por-tance of
  []
 
 <resource/TUM-Logo-102.png, id=44, 195.73125pt x 54.2025pt>
 File: resource/TUM-Logo-102.png Graphic file (type png)
 <use resource/TUM-Logo-102.png>
-Package pdftex.def Info: resource/TUM-Logo-102.png  used on input line 74.
+Package pdftex.def Info: resource/TUM-Logo-102.png  used on input line 61.
 (pdftex.def)             Requested size: 206.41217pt x 57.16324pt.
-<resource/test.pdf, id=45, 656.4525pt x 214.8025pt>
-File: resource/test.pdf Graphic file (type pdf)
-<use resource/test.pdf>
-Package pdftex.def Info: resource/test.pdf  used on input line 86.
-(pdftex.def)             Requested size: 435.32419pt x 142.44527pt.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-18.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 118.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 118.
- [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              <5> on input line 80.
 
-
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} 
-<./resource/TUM-Logo-102.png>]
-Underfull \hbox (badness 3668) in paragraph at lines 184--184
+Underfull \hbox (badness 3668) in paragraph at lines 130--130
 []\OT1/cmr/bx/n/14.4 Challenges and Fu-ture of
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]\OT1/cmr/m/n/10 This en-try oc-cu-pies three
- []
-
-[2 <./resource/test.pdf>] (./seminarpaper.bbl
+(./seminarpaper.bbl
 Underfull \hbox (badness 3780) in paragraph at lines 4--8
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
-) [3] (./seminarpaper.aux)
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} 
+<./resource/TUM-Logo-102.png>]) [2
+
+] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 23B73BE2E813BC96C50A85F668C71911;1702.
  ) 
 Here is how much of TeX's memory you used:
- 8431 strings out of 474116
- 131699 string characters out of 5743682
- 1943187 words of memory out of 5000000
- 30692 multiletter control sequences out of 15000+600000
+ 8391 strings out of 474116
+ 130935 string characters out of 5743682
+ 1941187 words of memory out of 5000000
+ 30658 multiletter control sequences out of 15000+600000
  563004 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,396b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,396b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -320,10 +309,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (3 pages, 142558 bytes).
+Output written on seminarpaper.pdf (2 pages, 131593 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
