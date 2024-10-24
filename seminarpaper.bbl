@@ -1,5 +1,8 @@
 \begin{thebibliography}{1}
 
+\bibitem{noauthor_microcontroller_nodate}
+Microcontroller {Market} {Size}, {Share} \& {Trends} {By} 2034.
+
 \bibitem{de_prado_robustifying_2020}
 Miguel de~Prado, Manuele Rusci, Romain Donze, Alessandro Capotondi, Serge
   Monnerat, Luca~Benini And, and Nuria Pazos.
@@ -18,6 +21,12 @@ Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
   {Prediction} for {Edge} {Devices} with {Extremely} {Low} {Memory}
   {Footprint}, February 2021.
 \newblock arXiv:2011.13741.
+
+\bibitem{ren_tinyol_2021}
+Haoyu Ren, Darko Anicic, and Thomas Runkler.
+\newblock {TinyOL}: {TinyML} with {Online}-{Learning} on {Microcontrollers}.
+\newblock April 2021.
+\newblock arXiv:2103.08295.
 
 \bibitem{ren_synergy_2021}
 Haoyu Ren, Darko Anicic, and Thomas~A. Runkler.
