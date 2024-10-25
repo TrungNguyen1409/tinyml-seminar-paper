@@ -1,10 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{grandviewresearch_research_2023}
 Microcontroller market research, 2030.
 
 \bibitem{noauthor_microcontroller_nodate}
 Microcontroller {Market} {Size}, {Share} \& {Trends} {By} 2034.
+
+\bibitem{bhamare_chapter_2024}
+Mamta Bhamare, Pradnya~V. Kulkarni, Rashmi Rane, Sarika Bobde, and Ruhi
+  Patankar.
+\newblock Chapter 14 - {TinyML} applications and use cases for healthcare.
+\newblock pages 331--353, January 2024.
 
 \bibitem{de_prado_robustifying_2020}
 Miguel de~Prado, Manuele Rusci, Romain Donze, Alessandro Capotondi, Serge
@@ -24,6 +30,12 @@ Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
   {Prediction} for {Edge} {Devices} with {Extremely} {Low} {Memory}
   {Footprint}, February 2021.
 \newblock arXiv:2011.13741.
+
+\bibitem{ray_review_2022}
+Partha~Pratim Ray.
+\newblock A review on {TinyML}: {State}-of-the-art and prospects.
+\newblock {\em Journal of King Saud University - Computer and Information
+  Sciences}, 34(4):1595--1623, April 2022.
 
 \bibitem{ren_tinyol_2021}
 Haoyu Ren, Darko Anicic, and Thomas Runkler.
@@ -45,5 +57,10 @@ A.~Navaas Roshan, B.~Gokulapriyan, C.~Siddarth, and Priyanka Kokil.
 \newblock In {\em 2021 {Sixth} {International} {Conference} on {Wireless}
   {Communications}, {Signal} {Processing} and {Networking} ({WiSPNET})}, pages
   451--455, March 2021.
+
+\bibitem{tsoukas_tinyml-based_2022}
+Vasileios Tsoukas, Anargyros Gkogkidis, and Athanasios Kakarountas.
+\newblock A {TinyML}-based {System} {For} {Smart} {Agriculture}.
+\newblock pages 207--212, November 2022.
 
 \end{thebibliography}

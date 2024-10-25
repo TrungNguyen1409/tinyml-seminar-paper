@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  25 OCT 2024 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  25 OCT 2024 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,30 +258,50 @@ Underfull \hbox (badness 1270) in paragraph at lines 49--52
  []
 
 
+Underfull \hbox (badness 1205) in paragraph at lines 49--52
+\OT1/cmr/m/n/10 Graph-ics Pro-cess-ing Units (GPUs) and pro-duce
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 49--52
+\OT1/cmr/m/n/10 large mod-els rang-ing from tens or hun-dreds of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+
 
 pdfTeX warning: pdflatex (file ./resource/tinyml_deployment.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<resource/tinyml_deployment.pdf, id=44, 429.04489pt x 225.89694pt>
+<resource/tinyml_deployment.pdf, id=49, 457.71pt x 233.9139pt>
 File: resource/tinyml_deployment.pdf Graphic file (type pdf)
 <use resource/tinyml_deployment.pdf>
 Package pdftex.def Info: resource/tinyml_deployment.pdf  used on input line 58.
 
-(pdftex.def)             Requested size: 229.34842pt x 120.75542pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 76.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
+(pdftex.def)             Requested size: 229.34842pt x 117.21007pt.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-(./seminarpaper.bbl
-Underfull \hbox (badness 3780) in paragraph at lines 10--14
+Underfull \hbox (badness 4505) in paragraph at lines 80--94
+\OT1/cmr/m/n/10 with-out need-ing con-tin-u-ous cloud con-nec-tiv-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--94
+
+ []
+
+(./seminarpaper.bbl [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-su
+per/cm-super-ts1.enc} <./resource/tinyml_deployment.pdf>]
+Underfull \hbox (badness 2221) in paragraph at lines 16--20
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
-) [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
-nc} <./resource/tinyml_deployment.pdf>] (./seminarpaper.aux)
+) [3] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -290,27 +310,23 @@ Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 7840C4ACCA1C3ABC2EC141A6A800B356;1329.
  ) 
 Here is how much of TeX's memory you used:
- 8396 strings out of 474116
- 131163 string characters out of 5743682
+ 8395 strings out of 474116
+ 131132 string characters out of 5743682
  1945187 words of memory out of 5000000
- 30662 multiletter control sequences out of 15000+600000
+ 30658 multiletter control sequences out of 15000+600000
  563004 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1369b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1369b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (2 pages, 286215 bytes).
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on seminarpaper.pdf (3 pages, 256681 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

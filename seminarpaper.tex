@@ -48,9 +48,9 @@ In recent years, Artificial Intelligence (AI) and Machine Learning (ML) have rec
 
 Traditional Machine Learning Models, especially Deep Learning Models typically require substantial amount of computing capability to operate effectively. These models are often trained on powerful Graphics Processing Units (GPUs) and produce large models ranging from tens or hundreds of gigabytes (GB) down to smaller models in the range of 10 to 100 megabytes (MB). However, the memory requirements during runtime for these models far exceed what microcontrollers (MCUs) can handle.
 The pardigm shift to TinyML is driven by the prevailing number of Microcontroller Units (MCU) currently circulating in the industry. According to a recent report \cite{noauthor_microcontroller_nodate,grandviewresearch_research_2023}, as of 2021, around 31 billion MCUs were shipped worldwide annually. The MCU market size is projected to increase in upcoming years \cite{noauthor_microcontroller_nodate}. This creates a big incentive for researchers and industry players to put effort into developing the technology further.
-TinyML aims to enable the operation of ML model to run on energy-, and memory-constraint devices by limiting communication overhead with better suited architecture design and applying different compressing techniques such as: quantization and pruning. Although various organizations have been putting efforts into ML project, merely 13\% of them took off to production. 
+TinyML aims to enable data processing or inferencing directly on embedded systems, particularly on Internet Of Things (IOT), instead of streaming to the cloud. TinyML model can run on energy-, and memory-constraint devices by limiting communication overhead with better suited architecture design and applying different compressing techniques such as: quantization and pruning. The advancement of tinyML has positively influenced multiple industries/sectors such as: industrial IOT \cite{ray_review_2022}, healthcare \cite{bhamare_chapter_2024}, agriculture \cite{tsoukas_tinyml-based_2022}, IOT in smart-city \cite{hussein_original_2024,ray_review_2022}. \\[0.25cm]
 
-In this paper, we aim to highlight what is required to transition a TinyML project into production and generate value for the industry. In Chapter~\ref{tinyml_overview}, we provide an overview of the key concepts, techniques, and the development pipeline of TinyML. In Chapter~\ref{prod_tinyml}, drawing on recent research, we explore the challenges of this development process and present approaches to address them. Next, in Chapter~\ref{use_cases}, we discuss real-world use cases of TinyML in industrial environments. Finally, in Chapter~\ref{future_of_tinyml}, we examine the future prospects of TinyML.
+Although various organizations have been putting efforts into ML project, merely 13\% of them took off to production. In this paper, we aim to highlight what is required to transition a TinyML project into production and generate value for the industry. In Chapter~\ref{tinyml_overview}, we provide an overview of the key concepts, techniques, and the development pipeline of TinyML. In Chapter~\ref{prod_tinyml}, drawing on recent research, we explore the challenges of this development process and present approaches to address them. Next, in Chapter~\ref{use_cases}, we discuss real-world use cases of TinyML in industrial environments. Finally, in Chapter~\ref{future_of_tinyml}, we examine the future prospects of TinyML.
 
 \begin{figure}
 	\centerline{
@@ -68,23 +68,29 @@ In this paper, we aim to highlight what is required to transition a TinyML proje
 
 \subsection{Key Concepts and Techniques}
 
+Pruning
 
+Quantization
+
+With the TinyML model running on edge, the data is stored, processed and analysed internally rather
+than at an external server or cloud.
 
 \subsection{TinyML pipeline}
 
-
-\begin{equation}
-a^2 + b^2 = c^2
-\label{Pythagoras}
-\end{equation}
-
-Again, refering to this equation is easy (see Eq.~\ref{Pythagoras}).
-If you do not need numbering for equations, use the {\em displaymath}
-environment:
-
-\begin{displaymath}
-x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}\\
-\end{displaymath}
+Data Collection:
+	•	The workflow starts with collecting data from an IoT device. This data serves as the input for training machine learning models. The IoT device can gather various types of data depending on the application, such as sensor data in smart homes or environmental monitoring. \\[0.25cm]
+Preprocessing:
+	•	After collecting data, it moves to the preprocessing stage. Here, the data is cleaned and prepared for model training. Preprocessing can involve tasks such as normalization, handling missing values, or feature extraction to improve the quality of the input data.\\[0.25cm]
+Model Training:
+	•	The preprocessed data is fed into an ML framework, where a machine learning model is trained. This stage involves using machine learning algorithms to find patterns in the data, building a predictive or analytical model that can generalize from the data.\\[0.25cm]
+Model Conversion:
+	•	Once the model is trained, it is converted into a format suitable for deployment on resource-constrained devices, like microcontrollers. This step might involve techniques such as quantization (reducing the precision of model weights) or pruning (removing unnecessary parts of the model) to reduce the model’s size and computation needs.\\[0.25cm]
+Model Packaging:
+	•	After conversion, the model is packaged into a deployable form. This includes bundling the model with any necessary runtime components to allow it to be executed efficiently on the target device.\\[0.25cm]
+Deployment:
+	•	The next step involves deploying the packaged model onto an IoT device. This means transferring the model to the device, setting it up for real-time inference or operation in the field.\\[0.25cm]
+Inference:
+	•	Finally, the deployed model performs inference on the IoT device. Inference refers to the process of using the model to make predictions or decisions based on new data collected by the IoT device. The model operates locally on the device without needing continuous cloud connectivity, enabling real-time decision-making at the edge.\\[0.25cm]
 
 
 \section{Enablements of TinyML in Industrial Setting}
