@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  25 OCT 2024 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  25 OCT 2024 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,10 +190,6 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box51
 )
-
-LaTeX Warning: Unused global option(s):
-    [A4].
-
 (./seminarpaper.aux)
 \openout1 = `seminarpaper.aux'.
 
@@ -255,68 +251,94 @@ Underfull \hbox (badness 1478) in paragraph at lines 40--42
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/cmr/bx/n/12 Context and Im-por-tance of
- []
+LaTeX Warning: Citation `grandviewresearch_microcontroller_2022' on page 1 unde
+fined on input line 52.
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 52--54
+Underfull \hbox (badness 1270) in paragraph at lines 51--54
 \OT1/cmr/m/n/10 Traditional Ma-chine Learn-ing Mod-els, es-pe-cially
  []
 
-<resource/TUM-Logo-102.png, id=46, 195.73125pt x 54.2025pt>
-File: resource/TUM-Logo-102.png Graphic file (type png)
-<use resource/TUM-Logo-102.png>
-Package pdftex.def Info: resource/TUM-Logo-102.png  used on input line 64.
-(pdftex.def)             Requested size: 206.41217pt x 57.16324pt.
+
+Underfull \hbox (badness 1502) in paragraph at lines 62--62
+[]\OT1/cmr/bx/n/12 Definition, Key Con-cepts, and
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 83.
+(Font)              <7> on input line 68.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 83.
+(Font)              <5> on input line 68.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./resource/TUM-Logo-102.png>]
-Underfull \hbox (badness 3668) in paragraph at lines 133--133
+]
+Underfull \hbox (badness 3668) in paragraph at lines 116--116
 []\OT1/cmr/bx/n/14.4 Challenges and Fu-ture of
  []
 
+<resource/TUM-Logo-102.png, id=72, 195.73125pt x 54.2025pt>
+File: resource/TUM-Logo-102.png Graphic file (type png)
+<use resource/TUM-Logo-102.png>
+Package pdftex.def Info: resource/TUM-Logo-102.png  used on input line 123.
+(pdftex.def)             Requested size: 206.41217pt x 57.16324pt.
 (./seminarpaper.bbl
 Underfull \hbox (badness 3780) in paragraph at lines 7--11
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
 ) [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
-nc}] (./seminarpaper.aux)
+nc} <./resource/TUM-Logo-102.png>] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
-(rerunfilecheck)             Checksum: 23B73BE2E813BC96C50A85F668C71911;1702.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `seminarpaper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `seminarpaper.out':
+(rerunfilecheck)             Before: 23B73BE2E813BC96C50A85F668C71911;1702
+(rerunfilecheck)             After:  6F77C88AD420639CE2254339667443E8;1310.
  ) 
 Here is how much of TeX's memory you used:
- 8395 strings out of 474116
- 131041 string characters out of 5743682
- 1943187 words of memory out of 5000000
+ 8396 strings out of 474116
+ 131057 string characters out of 5743682
+ 1945187 words of memory out of 5000000
  30660 multiletter control sequences out of 15000+600000
- 563004 words of font info for 52 fonts, out of 8000000 for 9000
+ 563312 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1369b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (2 pages, 134350 bytes).
+ 75i,9n,79p,1369b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.1.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on seminarpaper.pdf (2 pages, 143204 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 140 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

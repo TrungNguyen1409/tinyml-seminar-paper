@@ -1,4 +1,4 @@
-\documentclass[A4,twocolumn]{article}
+\documentclass[twocolumn]{article}
 
 %\usepackage[iso]{umlaute}
 %\usepackage{german}
@@ -47,36 +47,21 @@ In recent years, Artificial Intelligence (AI) and Machine Learning (ML) have rec
 % Use labels to be able to refer to this position from somewhere else
 \label{introduction}
 
-\subsection{Context and Importance of TinyML}
 
 Traditional Machine Learning Models, especially Deep Learning Models typically require substantial amount of computing capability to operate effectively. These models are often trained on powerful Graphics Processing Units (GPUs) and produce large models ranging from tens or hundreds of gigabytes (GB) down to smaller models in the range of 10 to 100 megabytes (MB). However, the memory requirements during runtime for these models far exceed what microcontrollers (MCUs) can handle.
-According to a recent report \cite{noauthor_microcontroller_nodate}, as of 2021, around 31 billion Microcontroller Units (MCU) units were shipped worldwide annually. The MCU market size is projected to increase in the next years, as the market g. 
+The pardigm shift to TinyML is driven by the prevailing number of Microcontroller Units (MCU) currently circulating in the industry. According to a recent report \cite{noauthor_microcontroller_nodate,grandviewresearch_microcontroller_2022}, as of 2021, around 31 billion MCUs were shipped worldwide annually. The MCU market size is projected to increase in upcoming years \cite{noauthor_microcontroller_nodate}. This creates a big incentive for researchers and industry players to put effort into developing the technology further.
+TinyML aims to enable the operation of ML model to run on energy-, and memory-constraint devices by limiting communication overhead with better suited architecture design and applying different compressing techniques such as: quantization and pruning.
 
-\subsection{Scope and Objective}
-
-
-
-
-% free floating figure using width of one column.
-\begin{figure}
-\centerline{
-\includegraphics[width=0.9\columnwidth]{resource/TUM-Logo-102.png}
-}
-\caption{The caption explaining what can be seen in the image/figure.
-Readers often read captions first if they do not have much time. Thus,
-it is important to find a good short explanation.}
-% A label to allow refering to this figure in the text.
-\label{TUM}
-\end{figure}
+in this paper
 
 
 
 
-\section{TinyML Overview (1 page)}
+\section{TinyML Overview}
 
-\subsection{Definition and Key Concepts}
-\subsection{Why TinyML Matters}
+\subsection{Definition, Key Concepts, and Techniques}
 
+\subsection{TinyML pipeline}
 
 
 
@@ -96,22 +81,7 @@ x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}\\
 
 
 
-\section{Use Cases of TinyML}
-
-Enumerations using bullet points:
-
-\begin{itemize}
-	\item 	IoT and Smart Devices
-	\item 	Environmental Monitoring
-	\item 	Industrial Applications
-	\item 	IoT and Smart Devices
-	\item 	Edge AI and Autonomous Systems
-
-\end{itemize}
-
-
-
-\section{Techniques in TinyML (3-4 pages)}
+\section{Production tinyML}
 
 
 
@@ -130,10 +100,33 @@ system
 % this file is processed by bibtex, and it automatically adds numbering
 \cite{hussein_original_2024, paul_rethinking_2021, de_prado_robustifying_2020,ren_synergy_2021,roshan_adaptive_2021}.
 
+
+\section{Bringing TinyML to industrial setting}
+
+Enumerations using bullet points:
+
+\begin{itemize}
+	\item 	Agriculture
+	\item 	Environmental Monitoring
+	\item 	Industrial predictive maintenance
+	\item 	Edge AI and Autonomous Systems
+\end{itemize}
+
+
 \section{Challenges and Future of TinyML }
 
 
-
+% free floating figure using width of one column.
+\begin{figure}
+	\centerline{
+	\includegraphics[width=0.9\columnwidth]{resource/TUM-Logo-102.png}
+	}
+	\caption{The caption explaining what can be seen in the image/figure.
+	Readers often read captions first if they do not have much time. Thus,
+	it is important to find a good short explanation.}
+	% A label to allow refering to this figure in the text.
+	\label{TUM}
+	\end{figure}
 
 \section{Conclusion}
 \label{conclusion}
