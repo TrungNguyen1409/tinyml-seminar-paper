@@ -24,7 +24,7 @@
 \author{Trung Nguyen\\ Technische Universit\"at M\"unchen}
 
 \title{Seminar Cloud Computing \\
-       {\bf From Concept to Production: Deploying TinyML in Industry}
+       {\bf From Concept to Production: Enablements TinyML in Industrial Setting}
 }
 
 % Date of your talk
@@ -50,8 +50,7 @@ Traditional Machine Learning Models, especially Deep Learning Models typically r
 The pardigm shift to TinyML is driven by the prevailing number of Microcontroller Units (MCU) currently circulating in the industry. According to a recent report \cite{noauthor_microcontroller_nodate,grandviewresearch_research_2023}, as of 2021, around 31 billion MCUs were shipped worldwide annually. The MCU market size is projected to increase in upcoming years \cite{noauthor_microcontroller_nodate}. This creates a big incentive for researchers and industry players to put effort into developing the technology further.
 TinyML aims to enable data processing or inferencing directly on embedded systems, particularly on Internet Of Things (IOT), instead of streaming to the cloud. TinyML model can run on energy-, and memory-constraint devices by limiting communication overhead with better suited architecture design and applying different compressing techniques such as: quantization and pruning. The advancement of tinyML has positively influenced multiple industries/sectors such as: industrial IOT \cite{ray_review_2022}, healthcare \cite{bhamare_chapter_2024}, agriculture \cite{tsoukas_tinyml-based_2022}, IOT in smart-city \cite{hussein_original_2024,ray_review_2022}. \\[0.25cm]
 
-Although various organizations have been putting efforts into ML project, merely 13\% of them took off to production. In this paper, we aim to highlight what is required to transition a TinyML project into production and generate value for the industry. In Chapter~\ref{tinyml_overview}, we provide an overview of the key concepts, techniques, and the development pipeline of TinyML. In Chapter~\ref{prod_tinyml}, drawing on recent research, we explore the challenges of this development process and present approaches to address them. Next, in Chapter~\ref{use_cases}, we discuss real-world use cases of TinyML in industrial environments. Finally, in Chapter~\ref{future_of_tinyml}, we examine the future prospects of TinyML.
-
+Although various organizations have been actively investing resources into machine learning projects, only around 13\% of these projects successfully progress to production. This low success rate highlights the complex challenges and gaps in translating ML concepts into fully functional, production-grade systems, especially in the realm of TinyML. In this paper, we aim to address these challenges and outline what is necessary to transition a TinyML project from concept to production, ultimately creating value for industrial applications. In Chapter~\ref{tinyml_overview}, we provide an in-depth overview of the fundamental concepts, techniques, and development pipeline of TinyML. Following this, in Chapter~\ref{prod_tinyml}, we draw on recent research to investigate the specific challenges encountered in developing and deploying TinyML models in production environments, as well as practical strategies to overcome these obstacles. Next, in Chapter~\ref{use_cases}, we explore real-world applications of TinyML in industrial settings, illustrating its transformative potential. Finally, in Chapter~\ref{future_of_tinyml}, we consider the future trajectory of TinyML, discussing upcoming advancements and their implications for broader industrial adoption.
 \begin{figure}
 	\centerline{
 	\includegraphics[width=1\columnwidth]{resource/tinyml_deployment.pdf}
@@ -68,12 +67,12 @@ Although various organizations have been putting efforts into ML project, merely
 
 \subsection{Key Concepts and Techniques}
 
-Pruning
+Pruning removes unnecessary neurons or connections from a neural network to reduce its size and complexity. This optimization lowers memory and computational demands, making the model faster and more efficient for deployment on resource-limited devices like microcontrollers.
 
-Quantization
+Quantization reduces the precision of model parameters (e.g., from 32-bit to 8-bit), which decreases model size and computational needs. This technique enables efficient model inference on devices with limited memory and processing power, such as those used in TinyML applications.
 
 With the TinyML model running on edge, the data is stored, processed and analysed internally rather
-than at an external server or cloud.
+than at an external server or cloud. 
 
 \subsection{TinyML pipeline}
 
@@ -93,23 +92,28 @@ Inference:
 	•	Finally, the deployed model performs inference on the IoT device. Inference refers to the process of using the model to make predictions or decisions based on new data collected by the IoT device. The model operates locally on the device without needing continuous cloud connectivity, enabling real-time decision-making at the edge.\\[0.25cm]
 
 
+
 \section{Enablements of TinyML in Industrial Setting}
 \label{prod_tinyml}
 
-\begin{quote}
-	``I think there is a world market for maybe five computers.''
-	(T.J. Watson, IBM, 1943)
-\end{quote}
+\subsection{Challenges}
 
-The rest of the work (especially all the regular text) must be
-written/phrased by you. If you write about some results or fact
-stated in another paper, you should refer to it.
-The `Analytical Engine'' --- a mechanical calculation machine ---
-created by Charles Babbage in the year 1838 was based on the decimal
-system
+The fundamental pipeline for deploying a TinyML model to a microcontroller, as described above, provides a general framework for model development and deployment. However, in industrial settings, this pipeline often falls short due to a variety of challenges unique to production environments.
+
+
+\subsubsection{Performance across heterogeneous devices or affected by heterogeneity}
+\subsubsection{Adaptation to unseen scenarios and constantly changing conditions
+}
+
+\subsubsection{Model and device management at scale}
+
+
 % use \cite to refer to papers from seminarpaper.bib
 % this file is processed by bibtex, and it automatically adds numbering
 \cite{hussein_original_2024, paul_rethinking_2021, de_prado_robustifying_2020,ren_synergy_2021,roshan_adaptive_2021}.
+
+
+\subsection{Bringing tinyML to production environment}
 
 
 \section{Use Cases of TinyML in Industrial Setting}
