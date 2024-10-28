@@ -76,20 +76,20 @@ than at an external server or cloud.
 
 \subsection{TinyML pipeline}
 
-Data Collection:
-	•	The workflow starts with collecting data from an IoT device. This data serves as the input for training machine learning models. The IoT device can gather various types of data depending on the application, such as sensor data in smart homes or environmental monitoring. \\[0.25cm]
-Preprocessing:
-	•	After collecting data, it moves to the preprocessing stage. Here, the data is cleaned and prepared for model training. Preprocessing can involve tasks such as normalization, handling missing values, or feature extraction to improve the quality of the input data.\\[0.25cm]
-Model Training:
-	•	The preprocessed data is fed into an ML framework, where a machine learning model is trained. This stage involves using machine learning algorithms to find patterns in the data, building a predictive or analytical model that can generalize from the data.\\[0.25cm]
-Model Conversion:
-	•	Once the model is trained, it is converted into a format suitable for deployment on resource-constrained devices, like microcontrollers. This step might involve techniques such as quantization (reducing the precision of model weights) or pruning (removing unnecessary parts of the model) to reduce the model’s size and computation needs.\\[0.25cm]
-Model Packaging:
-	•	After conversion, the model is packaged into a deployable form. This includes bundling the model with any necessary runtime components to allow it to be executed efficiently on the target device.\\[0.25cm]
-Deployment:
-	•	The next step involves deploying the packaged model onto an IoT device. This means transferring the model to the device, setting it up for real-time inference or operation in the field.\\[0.25cm]
-Inference:
-	•	Finally, the deployed model performs inference on the IoT device. Inference refers to the process of using the model to make predictions or decisions based on new data collected by the IoT device. The model operates locally on the device without needing continuous cloud connectivity, enabling real-time decision-making at the edge.\\[0.25cm]
+\paragraph{Data Collection:}
+	The workflow starts with collecting data from an IoT device. This data serves as the input for training machine learning models. The IoT device can gather various types of data depending on the application, such as sensor data in smart homes or environmental monitoring. \\[0.25cm]
+\paragraph{Preprocessing:}
+	After collecting data, it moves to the preprocessing stage. Here, the data is cleaned and prepared for model training. Preprocessing can involve tasks such as normalization, handling missing values, or feature extraction to improve the quality of the input data.\\[0.25cm]
+\paragraph{Model Training:}
+	The preprocessed data is fed into an ML framework, where a machine learning model is trained. This stage involves using machine learning algorithms to find patterns in the data, building a predictive or analytical model that can generalize from the data.\\[0.25cm]
+\paragraph{Model Conversion:}
+	Once the model is trained, it is converted into a format suitable for deployment on resource-constrained devices, like microcontrollers. This step might involve techniques such as quantization (reducing the precision of model weights) or pruning (removing unnecessary parts of the model) to reduce the model’s size and computation needs.\\[0.25cm]
+\paragraph{Model Packaging:}
+	After conversion, the model is packaged into a deployable form. This includes bundling the model with any necessary runtime components to allow it to be executed efficiently on the target device.\\[0.25cm]
+\paragraph{Deployment:}
+	The next step involves deploying the packaged model onto an IoT device. This means transferring the model to the device, setting it up for real-time inference or operation in the field.\\[0.25cm]
+\paragraph{Inference:}
+	Finally, the deployed model performs inference on the IoT device. Inference refers to the process of using the model to make predictions or decisions based on new data collected by the IoT device. The model operates locally on the device without needing continuous cloud connectivity, enabling real-time decision-making at the edge.\\[0.25cm]
 
 
 
@@ -151,9 +151,14 @@ TinyOL (Tiny Machine Learning with Online Learning), as presented in the paper, 
     \item After processing each new data point, the model discards the data, ensuring efficient memory usage.
     \item The model is continuously updated, allowing it to handle shifts in data patterns over time.
 \end{enumerate}
-\subsubsection{Meta-Learning Framework and semantic management tools  }
+\subsubsection{Meta-Learning Framework and semantic management tools }
 
 TinyML models often need to be deployed on a wide range of embedded devices that differ in terms of hardware, environmental conditions, and tasks. A key challenge is how to ensure that these models perform well across different devices, even when they face different data distributions, goals, and constraints. Training a universal model for all devices is impractical because of limited labeled data and diverse deployment environments. This is where TinyReptile and TinyMetaFed come in.
+
+SeLoC-ML addresses the challenges of managing a fragmented TinyML ecosystem where numerous TinyML models need to be deployed on different embedded devices, each with unique hardware, sensors, and computational limits. Traditional TinyML deployment requires significant technical expertise, but SeLoC-ML simplifies this by:
+
+	1.	Streamlining Model and Device Matching: Using a centralized knowledge graph to manage both TinyML models and embedded devices, ensuring quick discovery and compatibility matching.
+	2.	Automating Deployment: By providing an easy-to-use low-code interface, it helps non-experts deploy TinyML models without needing deep technical knowledge.
 
 \subsubsection{Low-code management system}
 
