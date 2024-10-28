@@ -138,13 +138,39 @@ To tackle this, we have found approaches from Paper A, Paper B.
 
 \subsection{Bringing tinyML to production environment}
 \subsubsection{Advanced On Device Learning Methods }
+TinyOL (Tiny Machine Learning with Online Learning), as presented in the paper, is a framework designed to enable on-device learning. This means it allows models deployed on embedded devices (like sensors or microcontrollers) to learn and adapt in real-time without needing to be retrained externally. Here’s how it works and why it doesn’t require an internet 
+\paragraph{On-device Incremental Learning} TinyOL enables continuous learning directly on resource-constrained devices. It can train a model incrementally by learning from streaming data as it arrives in real-time, without the need to store large datasets. This approach allows the model to remain updated with new data without requiring frequent retraining in centralized, powerful systems.
+\paragraph{Adapt} TinyOL is particularly useful in cases where the environment is dynamic and subject to changes. As new data arrives, the model adjusts incrementally, making it more robust to “concept drift” (changes in data patterns over time) without requiring access to previous data. This is critical in real-world scenarios where conditions may fluctuate frequently. 
+\paragraph{Minimal Resource consumption}TinyOL operates with minimal memory and computational resources. For instance, the framework can run within just 7 KB of RAM and 135 KB of Flash memory, making it suitable for low-power embedded devices that cannot support traditional machine learning models.
 
+\paragraph{How TinyOL Works}
+
+\begin{enumerate}
+    \item The device collects streaming data from its environment.
+    \item TinyOL processes the data, updates the model’s running mean and variance, and adjusts the model weights accordingly.
+    \item After processing each new data point, the model discards the data, ensuring efficient memory usage.
+    \item The model is continuously updated, allowing it to handle shifts in data patterns over time.
+\end{enumerate}
 \subsubsection{Meta-Learning Framework and semantic management tools  }
-TinyReptile AND  SeLoC-ML 
+
+TinyML models often need to be deployed on a wide range of embedded devices that differ in terms of hardware, environmental conditions, and tasks. A key challenge is how to ensure that these models perform well across different devices, even when they face different data distributions, goals, and constraints. Training a universal model for all devices is impractical because of limited labeled data and diverse deployment environments. This is where TinyReptile and TinyMetaFed come in.
 
 \subsubsection{Low-code management system}
 
-MLOps for Scaling TinyML: TinyMLOps
+
+MLOps for Scaling TinyML: TinyMLOps has some drawbacks
+
+The paper introduces a TinyML low-code management system called SeLoC-ML, designed to simplify the deployment, management, and scaling of TinyML applications. This system is built on semantic web technology and integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
+
+Workflow of SeLoC-ML
+
+\begin{enumerate}
+	\item Define Requirements: Users specify the model requirements or device specifications (e.g., sensor types, memory limits) via the Mendix interface.
+	\item	Match Models and Devices: The system queries the KG for matching models and devices based on the user’s input. The system ensures that the selected models meet the hardware constraints of the device.
+	\item	Generate Deployment Code: Once a model and device are matched, SeLoC-ML generates a deployment project, including configuration files and scripts, which are ready to be uploaded to the target hardware. This eliminates the need for manual coding, reducing development time and errors.
+	\item	Deploy and Manage at Scale: SeLoC-ML supports large-scale management, allowing users to track, update, and maintain TinyML models across multiple devices.
+\end{enumerate}
+
 
 \section{Use Cases of TinyML in Industrial Setting}
 \label{use_cases}
