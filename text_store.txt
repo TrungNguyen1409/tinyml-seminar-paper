@@ -1,0 +1,21 @@
+\subsubsection{Performance across heterogeneous devices or affected by heterogeneity}
+
+\paragraph{Hardware} TinyML models are deployed on a diverse range of hardware architectures, including microcontrollers, embedded systems, and IoT devices. These platforms vary significantly in processor type (e.g., ARM or RISC-V), clock speeds, memory capacities, and specialized hardware accelerators. Each hardware platform presents its own set of constraints and requires unique optimizations, making it difficult to design models that perform consistently well across devices. Additionally, a key challenge in deploying TinyML models across different hardware is the lack of standardized metrics for comparing performance, as noted by Banbury et al. (2020). This variation complicates efforts to ensure uniform and predictable results across multiple implementations.
+
+\paragraph{Software} Different microcontrollers (MCUs) are often tied to distinct programming frameworks, each with specific compatibility limitations and restrictions. This diversity in frameworks leads to inconsistencies in model development and deployment, as the availability and compatibility of ML frameworks vary across platforms. Furthermore, the use of different libraries, inference engines, and compilers adds layers of complexity, making it challenging to maintain a streamlined deployment process across different MCUs. These software inconsistencies require careful management to avoid compatibility issues that could hinder TinyML applications on various devices.
+
+\paragraph{Data Heterogeneity} Ensuring model accuracy across devices depends on managing data quality and addressing issues such as noisy or missing data (Kallimani et al., 2023). Variations in data distribution between devices can significantly impact model performance during deployment, requiring models to be robust to a wide range of inputs. Data heterogeneity also affects TinyML application portability (Lakshman \& Eisty, 2022), as models must adapt to different data distributions encountered across devices. This need for adaptability drives the implementation of preprocessing, transfer learning, and generalization techniques, which help maintain consistent performance despite variations in data and device contexts.
+
+To tackle this, we have found approaches from Paper A, Paper B.
+
+
+
+
+\subsubsection{Meta-Learning Framework and semantic management tools }
+
+TinyML models often need to be deployed on a wide range of embedded devices that differ in terms of hardware, environmental conditions, and tasks. A key challenge is how to ensure that these models perform well across different devices, even when they face different data distributions, goals, and constraints. Training a universal model for all devices is impractical because of limited labeled data and diverse deployment environments. This is where TinyReptile and TinyMetaFed come in.
+
+SeLoC-ML addresses the challenges of managing a fragmented TinyML ecosystem where numerous TinyML models need to be deployed on different embedded devices, each with unique hardware, sensors, and computational limits. Traditional TinyML deployment requires significant technical expertise, but SeLoC-ML simplifies this by:
+
+	1.	Streamlining Model and Device Matching: Using a centralized knowledge graph to manage both TinyML models and embedded devices, ensuring quick discovery and compatibility matching.
+	2.	Automating Deployment: By providing an easy-to-use low-code interface, it helps non-experts deploy TinyML models without needing deep technical knowledge.
