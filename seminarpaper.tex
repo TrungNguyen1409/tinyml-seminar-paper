@@ -104,19 +104,14 @@ In traditional machine learning (ML), models can be regularly updated with new d
 
 This static deployment significantly impacts TinyML models over time, especially in dynamic environments where data patterns evolve. In real-world applications, conditions rarely remain constant, and the input data the model receives can change due to factors such as seasonal variations, environmental shifts, or user behavior changes. Without regular updates, a static model can struggle to adapt to these evolving patterns, a challenge known as concept drift (when the relationship between input and output changes) and data drift (when the distribution of input data changes). Both forms of drift can lead to a decline in model performance, making it essential to consider ways to address these challenges in TinyML deployments.
 
+
 \subsubsection{Integrating with Existing IOT System and Management of TinyML Models in Hetegenous Devices}
 Integrating TinyML-enabled microcontrollers (MCUs) into existing IoT systems presents several unique challenges. IoT infrastructures are often built on established architectures, protocols, and data formats that may not be directly compatible with TinyML MCUs. Adapting these MCUs to work within the existing IoT ecosystem requires significant customization to ensure seamless data exchange, communication, and interoperability.
 
 Moreover, existing IoT systems frequently rely on centralized processing or cloud-based analytics, while TinyML emphasizes local computation on edge devices. This architectural shift introduces complexities in synchronizing data and managing hybrid workflows that combine cloud and edge processing. Industrial IoT deployments also come with strict security and compliance requirements, so integrating TinyML MCUs necessitates additional security protocols, device authentication, and data encryption to maintain data integrity across the IoT network.
 
-Maintenance and scalability issues can complicate the integration of TinyML into IoT systems at scale. Updating models on distributed MCUs, managing firmware compatibility, and monitoring device health require robust infrastructure and automated processes, adding layers of complexity to deploying and managing TinyML solutions within existing IoT frameworks.
+Maintenance and scalability issues can complicate the integration of TinyML into IoT systems at scale. Updating models on distributed MCUs, managing firmware compatibility, and monitoring device health require robust infrastructure and automated processes, adding layers of complexity to deploying and managing TinyML solutions within existing IoT frameworks. Moreover, to manage and operate such sophisitcated system requires deep technical capability which many of professionals with good domain lacks. This urges not only the need for effective methods to manage and maintain TinyML systems at scale but also the importance of making these systems accessible to a broader range of professionals.Enabling more individuals to work with TinyML systems will be crucial for ensuring widespread adoption and operational success in industrial environments.
 
-This urges the need for a sufficient method to manage and maintain TinyML system at scale.
-
-To tackle this, we have found approaches from Paper A, Paper B.
-
-% use \cite to refer to papers from seminarpaper.bib
-% this file is processed by bibtex, and it automatically adds numbering
 \cite{hussein_original_2024, paul_rethinking_2021, de_prado_robustifying_2020,ren_synergy_2021,roshan_adaptive_2021}.
 
 
@@ -139,6 +134,7 @@ TinyOL (Tiny Machine Learning with Online Learning), as presented in the paper, 
 
 \subsubsection{Low-code management system}
 
+What is low-code: Low-code is a software development approach that enables the creation of applications through visual interfaces and minimal hand-coding. By utilizing drag-and-drop components and pre-built templates, low-code platforms streamline the development process, making it accessible to individuals with limited programming experience. This method accelerates application delivery, reduces costs, and fosters collaboration between business users and IT professionals. Low-code is particularly effective for developing business applications, automating workflows, and integrating systems, allowing organizations to respond swiftly to changing market demands
 
 MLOps for Scaling TinyML: TinyMLOps has some drawbacks
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  4 NOV 2024 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  4 NOV 2024 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,24 +352,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []
 
 [2 <./resource/tinyml_deployment.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 Integrating TinyML-enabled mi-cro-con-trollers
  []
 
-
-Underfull \hbox (badness 3229) in paragraph at lines 126--127
+[3]
+Underfull \hbox (badness 3229) in paragraph at lines 121--122
 \OT1/cmr/m/n/10 ables con-tin-u-ous learn-ing di-rectly on resource-
  []
 
-[3] (./seminarpaper.bbl
+[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}] (./seminarpaper.bbl
 Underfull \hbox (badness 2221) in paragraph at lines 16--20
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
-[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]) [5
-
-] (./seminarpaper.aux)
+) [5] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -384,7 +382,7 @@ Here is how much of TeX's memory you used:
  30669 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1369b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1369b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -395,7 +393,7 @@ al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (5 pages, 305317 bytes).
+Output written on seminarpaper.pdf (5 pages, 306144 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams
