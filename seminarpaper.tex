@@ -175,7 +175,7 @@ TinyOL’s architecture allows it to continuously adapt to new data patterns ove
 
 There has been increased attention to TinyML Management with differents methods proposed such as: TinyML as a service , Model Card to describe and organize the information of trained models \cite{mitchell_model_2019}, or TinyML Operations (TinyMLOps) \cite{antonini_tiny-mlops_2022} to build an abstraction layer for various hardware compilers. However, theses approaches reveal certain drawbacks as they lack features for users to store and exchange information about existing resources. 
 
-The paper introduces a TinyML low-code management framework called SeLoC-ML (Semantic Low-Code ML), designed to simplify the deployment, management, and scaling of TinyML applications. The essentials of SeLoC-ML can be broken down into two main parts: to build a knowlegde graph ontology on the existing overal TinyML system and to inject the knowlegde graph into a low-code platform \footnote{A low-code platform is a development environment that enables application creation through visual interfaces and minimal coding, making it accessible to users with limited programming knowledge. \url{https://www.ibm.com/topics/low-code/}}. 
+The paper introduces a TinyML low-code management framework called SeLoC-ML (Semantic Low-Code ML), designed to simplify the deployment, management, and scaling of TinyML applications. The essentials of SeLoC-ML can be broken down into two main parts: to build a KG ontology on the existing overal TinyML system and to inject the KG into a low-code platform \footnote{A low-code platform is a development environment that enables application creation through visual interfaces and minimal coding, making it accessible to users with limited programming knowledge. \url{https://www.ibm.com/topics/low-code/}}. 
 
 
 \begin{figure*}[t]
@@ -187,7 +187,7 @@ The paper introduces a TinyML low-code management framework called SeLoC-ML (Sem
 \end{figure*}
 
 
-\paragraph{Contruction of the knowlegde graph:} 
+\paragraph{Contruction of the Knowledge Graph (KG):} 
 
 By reusing existing standards, like the \textbf{Semantic Sensor Network(SSN)} and \textbf{W3C Thing Description (TD)}  \footnote{\url{https://www.w3.org/WoT/}}
 ontologies (a structured schema), an ontology that includes defitions and metadata for TinyML models, such as neural network architecture, layer configurations, and hardware requirements can be built. These data then can be stored using a graph database to facilitate management, dicovery, and deployment of TinyML applications.
