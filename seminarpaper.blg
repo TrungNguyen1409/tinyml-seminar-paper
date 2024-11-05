@@ -15,45 +15,45 @@ Warning--empty journal in bhamare_chapter_2024
 Warning--empty journal in ren_tinyol_2021
 Warning--empty journal in ren_how_2022
 Warning--empty journal in tsoukas_tinyml-based_2022
-You've used 12 entries,
+You've used 13 entries,
             2118 wiz_defined-function locations,
-            559 strings with 6475 characters,
-and the built_in function-call counts, 4214 in all, are:
-= -- 407
-> -- 206
+            565 strings with 6682 characters,
+and the built_in function-call counts, 4584 in all, are:
+= -- 443
+> -- 229
 < -- 4
-+ -- 85
-- -- 70
-* -- 308
-:= -- 665
-add.period$ -- 34
-call.type$ -- 12
-change.case$ -- 71
++ -- 94
+- -- 78
+* -- 342
+:= -- 729
+add.period$ -- 37
+call.type$ -- 13
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 162
-empty$ -- 311
-format.name$ -- 70
-if$ -- 882
+cite$ -- 25
+duplicate$ -- 173
+empty$ -- 335
+format.name$ -- 78
+if$ -- 954
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 10
-newline$ -- 60
-num.names$ -- 20
-pop$ -- 96
+int.to.str$ -- 13
+missing$ -- 11
+newline$ -- 65
+num.names$ -- 22
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 65
 quote$ -- 0
-skip$ -- 131
+skip$ -- 138
 stack$ -- 0
-substring$ -- 238
-swap$ -- 43
+substring$ -- 259
+swap$ -- 44
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 52
 warning$ -- 12
-while$ -- 36
-width$ -- 14
-write$ -- 119
+while$ -- 40
+width$ -- 15
+write$ -- 130
 (There were 12 warnings)

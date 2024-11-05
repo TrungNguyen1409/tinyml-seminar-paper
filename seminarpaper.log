@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,16 +356,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 Integrating TinyML-enabled mi-cro-con-trollers
  []
 
-
-LaTeX Warning: Citation `ren_how_2022' on page 3 undefined on input line 120.
-
 [3]
-Underfull \hbox (badness 3229) in paragraph at lines 124--125
+Underfull \hbox (badness 3229) in paragraph at lines 127--128
 \OT1/cmr/m/n/10 ables con-tin-u-ous learn-ing di-rectly on resource-
  []
 
-(./seminarpaper.bbl [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-su
-per/cm-super-ts1.enc}]
+[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}] (./seminarpaper.bbl
 Underfull \hbox (badness 2221) in paragraph at lines 16--20
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
@@ -375,24 +372,17 @@ Underfull \hbox (badness 2221) in paragraph at lines 16--20
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
-(rerunfilecheck)             Checksum: 977356F67EAA3CEB93948E2E529E7C79;3146.
+(rerunfilecheck)             Checksum: 23131A2BB0FE5A32700EEDC8354F1B03;3138.
  ) 
 Here is how much of TeX's memory you used:
- 8434 strings out of 474116
- 131629 string characters out of 5743682
+ 8436 strings out of 474116
+ 131666 string characters out of 5743682
  1946187 words of memory out of 5000000
- 30670 multiletter control sequences out of 15000+600000
+ 30671 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1369b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1369b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -403,10 +393,10 @@ al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (5 pages, 305909 bytes).
+Output written on seminarpaper.pdf (5 pages, 306293 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

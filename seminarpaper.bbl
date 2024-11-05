@@ -37,6 +37,13 @@ Partha~Pratim Ray.
 \newblock {\em Journal of King Saud University - Computer and Information
   Sciences}, 34(4):1595--1623, April 2022.
 
+\bibitem{ren_device_2024}
+Haoyu Ren, Darko Anicic, Xue Li, and Thomas Runkler.
+\newblock On-device {Online} {Learning} and {Semantic} {Management} of {TinyML}
+  {Systems}.
+\newblock {\em ACM Transactions on Embedded Computing Systems}, 23(4):1--32,
+  July 2024.
+
 \bibitem{ren_tinyol_2021}
 Haoyu Ren, Darko Anicic, and Thomas Runkler.
 \newblock {TinyOL}: {TinyML} with {Online}-{Learning} on {Microcontrollers}.
