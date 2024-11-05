@@ -166,7 +166,7 @@ The \textbf{TinyOL workflow} is summarized in the authors' algorithm \cite{ren_t
 \end{enumerate}
 
 \paragraph{Minium Resource Consumption:}
-After processing each data point, TinyOL discards it to conserve memory. This efficient approach enables TinyOL to handle high volumes of streaming data, which is essential for resource-constrained MCUs with limited storage and processing capacity. The framework operates with as little as 7 KB of RAM and 135 KB of Flash memory.
+After processing each data point, TinyOL discards it to conserve memory. Compared to traditional batch/offline training methods, this efficient approach enables TinyOL to handle high volumes of streaming data, which is essential for resource-constrained MCUs with limited storage and processing capacity. The framework operates with as little as 7 KB of RAM and 135 KB of Flash memory.
 
 \paragraph{Continuous Adaptation:}
 TinyOL’s architecture allows it to continuously adapt to new data patterns over time, addressing issues like \textbf{concept drift} and \textbf{data drift}. By updating model weights in real time, the system ensures that the deployed model remains relevant and can handle changes in input data characteristics that may not have been present during initial training.
@@ -181,6 +181,11 @@ MLOps for Scaling TinyML: TinyMLOps has some drawbacks
 
 The paper introduces a TinyML low-code management system called SeLoC-ML, designed to simplify the deployment, management, and scaling of TinyML applications. This system is built on semantic web technology and integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
 
+
+1. Build a knowlegde graphic ontology
+2. Integrating into a low-code plattform 
+
+
 Workflow of SeLoC-ML
 
 \begin{enumerate}
@@ -190,6 +195,8 @@ Workflow of SeLoC-ML
 	\item	Deploy and Manage at Scale: SeLoC-ML supports large-scale management, allowing users to track, update, and maintain TinyML models across multiple devices.
 \end{enumerate}
 
+
+This approach addresses the challenges of \textbf{updating models on distributed MCUs} and \textbf{managing firmware compatibility} by leveraging Semantic Web technologies and a Knowledge Graph (KG) to centralize and standardize information about TinyML models and IoT devices. The framework’s \textit{ontology} provides a standardized way to describe ML models and IoT devices, facilitating tracking of model versions, configurations, and updates across various devices. By storing information about model updates, dependencies, and compatibility requirements in the KG, the system enables automated discovery of compatible models for each device, allowing administrators to push updates more efficiently. The \textit{querying capabilities} of the Knowledge Graph make it easy to identify which MCUs require updates, simplifying model deployment across large-scale, distributed systems. Additionally, the KG maintains details about each device’s firmware, hardware specifications, and compatibility requirements, ensuring that only compatible firmware and model updates are deployed. This centralized approach minimizes the risk of deploying incompatible firmware or models, which is crucial in environments with diverse MCU configurations. 
 
 \section{Use Cases of TinyML in Industrial Setting}
 \label{use_cases}
