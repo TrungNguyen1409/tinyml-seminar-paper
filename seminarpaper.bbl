@@ -6,6 +6,13 @@ Microcontroller market research, 2030.
 \bibitem{noauthor_microcontroller_nodate}
 Microcontroller {Market} {Size}, {Share} \& {Trends} {By} 2034.
 
+\bibitem{antonini_tiny-mlops_2022}
+Mattia Antonini, Miguel Pincheira, Massimo Vecchio, and Fabio Antonelli.
+\newblock Tiny-{MLOps}: a framework for orchestrating {ML} applications at the
+  far edge of {IoT} systems.
+\newblock pages 1--8, May 2022.
+\newblock ISSN: 2473-4691.
+
 \bibitem{bhamare_chapter_2024}
 Mamta Bhamare, Pradnya~V. Kulkarni, Rashmi Rane, Sarika Bobde, and Ruhi
   Patankar.
@@ -23,6 +30,11 @@ Dina Hussein, Dina Ibrahim, and Norah Alajlan.
 \newblock Original {Research} {Article} {TinyML}: {Adopting} tiny machine
   learning in smart cities.
 \newblock {\em Journal of Autonomous Intelligence}, 7:1--14, January 2024.
+
+\bibitem{mitchell_model_2019}
+Andrew~Zaldivar Margaret~Mitchell, Simone~Wu.
+\newblock Model {Cards} for {Model} {Reporting}.
+\newblock 2019.
 
 \bibitem{paul_rethinking_2021}
 Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.

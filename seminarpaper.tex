@@ -173,13 +173,11 @@ TinyOL’s architecture allows it to continuously adapt to new data patterns ove
 
 \subsubsection{Management of TinyML systems at scale}
 
-What is low-code: Low-code is a software development approach that enables the creation of applications through visual interfaces and minimal hand-coding. By utilizing drag-and-drop components and pre-built templates, low-code platforms streamline the development process, making it accessible to individuals with limited programming experience. This method accelerates application delivery, reduces costs, and fosters collaboration between business users and IT professionals. Low-code is particularly effective for developing business applications, automating workflows, and integrating systems, allowing organizations to respond swiftly to changing market demands
+There has been increased attention to TinyML Management with differents methods proposed such as: TinyML as a service , Model Card to describe and organize the information of trained models \cite{mitchell_model_2019}, or TinyML Operations (TinyMLOps) \cite{antonini_tiny-mlops_2022} to build an abstraction layer for various hardware compilers. However, theses approaches reveal certain drawbacks as they lack features for users to store and exchange information about existing resources. 
 
-\footnotetext{\url{https://www.ibm.com/topics/low-code/}} 
+The paper introduces a TinyML low-code management framework called SeLoC-ML (Semantic Low-Code ML), designed to simplify the deployment, management, and scaling of TinyML applications. The essentials of SeLoC-ML can be broken down into two main parts: to build a knowlegde graph ontology on the existing overal TinyML system and to inject the knowlegde graph into a low-code platform \footnote{A low-code platform is a development environment that enables application creation through visual interfaces and minimal coding, making it accessible to users with limited programming knowledge. \url{https://www.ibm.com/topics/low-code/}}. 
 
-MLOps for Scaling TinyML: TinyMLOps has some drawbacks
-
-The paper introduces a TinyML low-code management system called SeLoC-ML, designed to simplify the deployment, management, and scaling of TinyML applications. This system is built on semantic web technology and integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
+This system is built on semantic web technology and integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
 
 
 1. Build a knowlegde graphic ontology
@@ -194,6 +192,8 @@ Workflow of SeLoC-ML
 	\item	Generate Deployment Code: Once a model and device are matched, SeLoC-ML generates a deployment project, including configuration files and scripts, which are ready to be uploaded to the target hardware. This eliminates the need for manual coding, reducing development time and errors.
 	\item	Deploy and Manage at Scale: SeLoC-ML supports large-scale management, allowing users to track, update, and maintain TinyML models across multiple devices.
 \end{enumerate}
+
+
 
 
 This approach addresses the challenges of \textbf{updating models on distributed MCUs} and \textbf{managing firmware compatibility} by leveraging Semantic Web technologies and a Knowledge Graph (KG) to centralize and standardize information about TinyML models and IoT devices. The framework’s \textit{ontology} provides a standardized way to describe ML models and IoT devices, facilitating tracking of model versions, configurations, and updates across various devices. By storing information about model updates, dependencies, and compatibility requirements in the KG, the system enables automated discovery of compatible models for each device, allowing administrators to push updates more efficiently. The \textit{querying capabilities} of the Knowledge Graph make it easy to identify which MCUs require updates, simplifying model deployment across large-scale, distributed systems. Additionally, the KG maintains details about each device’s firmware, hardware specifications, and compatibility requirements, ensuring that only compatible firmware and model updates are deployed. This centralized approach minimizes the risk of deploying incompatible firmware or models, which is crucial in environments with diverse MCU configurations. 

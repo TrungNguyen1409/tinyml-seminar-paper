@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,19 +378,8 @@ o-
  []
 
 [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-} <./resource/tinyol_on_mcu.pdf>]
-pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.178 ...rl{https://www.ibm.com/topics/low-code/}}
-                                                  
-Underfull \hbox (badness 1067) in paragraph at lines 201--202
-\OT1/cmr/m/n/10 by lever-ag-ing Se-man-tic Web tech-nolo-gies and a
- []
-
-[5] (./seminarpaper.bbl
-Underfull \hbox (badness 2221) in paragraph at lines 16--20
+} <./resource/tinyol_on_mcu.pdf>] [5] (./seminarpaper.bbl
+Underfull \hbox (badness 2221) in paragraph at lines 23--27
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
@@ -407,13 +396,13 @@ Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 773A5F2FBB11EFE1009A573E0001753A;3202.
  ) 
 Here is how much of TeX's memory you used:
- 8450 strings out of 474116
- 131966 string characters out of 5743682
- 1946187 words of memory out of 5000000
- 30679 multiletter control sequences out of 15000+600000
+ 8454 strings out of 474116
+ 132066 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 30681 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1369b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1369b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -421,13 +410,14 @@ usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
-live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (6 pages, 353048 bytes).
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on seminarpaper.pdf (6 pages, 366778 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
