@@ -177,21 +177,24 @@ There has been increased attention to TinyML Management with differents methods 
 
 The paper introduces a TinyML low-code management framework called SeLoC-ML (Semantic Low-Code ML), designed to simplify the deployment, management, and scaling of TinyML applications. The essentials of SeLoC-ML can be broken down into two main parts: to build a knowlegde graph ontology on the existing overal TinyML system and to inject the knowlegde graph into a low-code platform \footnote{A low-code platform is a development environment that enables application creation through visual interfaces and minimal coding, making it accessible to users with limited programming knowledge. \url{https://www.ibm.com/topics/low-code/}}. 
 
-This system is built on semantic web technology and integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
+
+\begin{figure*}[t]
+	\centerline{
+	\includegraphics[width=0.9\textwidth]{resource/KG.pdf}
+	}
+	\caption{Visualization of System's Knowledge Graph}
+	\label{KG}
+\end{figure*}
+\paragraph{Build a knowlegde graphic ontology} 
 
 
-1. Build a knowlegde graphic ontology
-2. Integrating into a low-code plattform 
+This system is built on semantic web technology
 
+example: The Move model, as depicted in the knowledge graph, represents a TinyML motion-detection or activity-recognition model with defined input and output requirements, metrics, and compatibility conditions. By including this model in the knowledge graph, the TinyML management system can ensure the Move model is deployed on compatible hardware, facilitating real-time motion analysis or gesture detection in various applications.
 
-Workflow of SeLoC-ML
+\paragraph{Integrating into a low-code platform}
 
-\begin{enumerate}
-	\item Define Requirements: Users specify the model requirements or device specifications (e.g., sensor types, memory limits) via the Mendix interface.
-	\item	Match Models and Devices: The system queries the KG for matching models and devices based on the user’s input. The system ensures that the selected models meet the hardware constraints of the device.
-	\item	Generate Deployment Code: Once a model and device are matched, SeLoC-ML generates a deployment project, including configuration files and scripts, which are ready to be uploaded to the target hardware. This eliminates the need for manual coding, reducing development time and errors.
-	\item	Deploy and Manage at Scale: SeLoC-ML supports large-scale management, allowing users to track, update, and maintain TinyML models across multiple devices.
-\end{enumerate}
+integrates with Mendix, a low-code platform, to enable non-experts to manage and deploy TinyML models across diverse embedded devices.
 
 
 
