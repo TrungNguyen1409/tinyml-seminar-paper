@@ -75,6 +75,8 @@ than at an external server or cloud.
 
 \subsection{TinyML pipeline}
 
+
+
 \paragraph{Data Collection:}
 	The workflow starts with collecting data from an IoT device. This data serves as the input for training machine learning models. The IoT device can gather various types of data depending on the application, such as sensor data in smart homes or environmental monitoring. \\[0.10cm]
 \paragraph{Preprocessing:}
@@ -120,17 +122,57 @@ In order to target each of the outlined challenges, we have found in recent rese
 \subsubsection{Advanced On Device Learning Methods}
 Creating a general NN model for general use is impractical for MCUs due to their resource-constraint nature. A simple NN model can easily exceed the hard storage room of a MCU. Moreover, for a general NN model to function, it needs to be updated with field data on the fly, which usually not possible as MCUs do not possess constant connection to the internets, especially while operating at edge.
 
-Ren et al. has presented in the paper TinyOL (Tiny Machine Learning with Online Learning), a novel framework designed to enable on-device learning. This means it allows models deployed on embedded devices (like sensors or microcontrollers) to learn and adapt in real-time without needing to be retrained externally. Here’s how it works and why it does not require an internet 
+In their paper on TinyOL (Tiny Machine Learning with Online Learning), Ren et al. introduced a novel system that enables on-device learning. This approach allows models deployed on embedded devices, such as sensors or microcontrollers, to learn and adapt in real time without requiring external retraining.
+
+\begin{figure}
+	\centerline{
+	\includegraphics[width=1\columnwidth]{resource/tinyol_on_mcu.pdf}
+	}
+	\caption{TinyOL Components on MCUs (adapted from Ren et al.)}
+	% A label to allow refering to this figure in the text.
+	\label{TinyOL}
+\end{figure}
+
+The core of TinyOL lies in the additional layer marked in red in Figure~\ref{TinyOL} reffered to as the \textbf{update layer} which consists of neurons that can be customized, initialied, and updated on the fly. This layer serves as an output layer that can adapt to new data while preserving the original network's structure. Following is the breakdown of each components in Figure~\ref{TinyOL}.
+
+\begin{itemize}
+    \item \textbf{Streaming Data}:
+    This component represents the live data input collected by the MCU from its environment. It is fed into the TinyML model continuously, allowing the system to make predictions based on real-time information.
+
+    \item \textbf{TinyML Model}:
+    The core machine learning model deployed on the MCU. It takes streaming data as input and performs initial processing. This model consists of several layers (depicted by vertical bars), which extract features from the data.
+
+    \item \textbf{Scale Input}:
+    After the TinyML model processes the input data, it passes through a scaling component. This step standardizes or normalizes the data to ensure it fits the model’s expected input distribution, helping maintain consistent performance as new data arrives.
+
+    \item \textbf{Update Layer}:
+    This is an adaptive layer within the TinyOL system, allowing the model to learn from new data on the fly. It dynamically updates its parameters based on incoming data, providing a mechanism for continuous learning without needing external retraining.
+
+    \item \textbf{Make a Prediction}:
+    After scaling and processing, the TinyOL system uses the model to make predictions. This decision node represents the point at which the system outputs a result based on the latest input data.
+
+    \item \textbf{Update Metric}:
+    When true labels (ground truth) are available, the system can update evaluation metrics based on the prediction’s accuracy. This component helps measure model performance and provides feedback for updating the model’s parameters.
+
+    \item \textbf{Streaming Label}:
+    This component represents the true labels or ground truth data available intermittently. When available, it is used to calculate metrics and adjust the update layer, enabling the model to correct itself over time and adapt to changing data patterns.
+\end{itemize}
 
 
+\paragraph{TinyOL Workflow}
+The \textbf{TinyOL workflow} is summarized in the authors' algorithm \cite{ren_tinyol_2021}. The workflow proceeds as follows:
+\begin{enumerate}
+    \item \textit{Initialization:} TinyOL initializes both the TinyML model and the TinyOL system for on-device learning.
+    \item \textit{Streaming Data Processing:} As new data points are received from the data stream, TinyOL processes each sample iteratively.
+    \item \textit{Normalization and Standardization:} The running mean and variance of the incoming data are updated for standardization purposes, preparing the data for the model.
+    \item \textit{Prediction and Model Update:} TinyOL uses the standardized input to make a prediction. If a true label is available, TinyOL computes the error between the prediction and the label, updating evaluation metrics. The model’s weights are then adjusted accordingly using techniques such as \textbf{stochastic gradient descent (SGD)}.
+\end{enumerate}
 
-\paragraph{On-device Incremental Learning} TinyOL enables continuous learning directly on resource-constrained devices. It can train a model incrementally by learning from streaming data as it arrives in real-time, without the need to store large datasets. This approach allows the model to remain updated with new data without requiring frequent retraining in centralized, powerful systems.
-\paragraph{Adapt} TinyOL is particularly useful in cases where the environment is dynamic and subject to changes. As new data arrives, the model adjusts incrementally, making it more robust to “concept drift” (changes in data patterns over time) without requiring access to previous data. This is critical in real-world scenarios where conditions may fluctuate frequently. 
-\paragraph{Minimal Resource consumption}TinyOL operates with minimal memory and computational resources. For instance, the framework can run within just 7 KB of RAM and 135 KB of Flash memory, making it suitable for low-power embedded devices that cannot support traditional machine learning models.
+\paragraph{Minium Resource Consumption:}
+After processing each data point, TinyOL discards it to conserve memory. This efficient approach enables TinyOL to handle high volumes of streaming data, which is essential for resource-constrained MCUs with limited storage and processing capacity. The framework operates with as little as 7 KB of RAM and 135 KB of Flash memory.
 
-
-\paragraph{Performance Asscessment of TinyOL}
-
+\paragraph{Continuous Adaptation:}
+TinyOL’s architecture allows it to continuously adapt to new data patterns over time, addressing issues like \textbf{concept drift} and \textbf{data drift}. By updating model weights in real time, the system ensures that the deployed model remains relevant and can handle changes in input data characteristics that may not have been present during initial training.
 
 \subsubsection{Low-code management system}
 
