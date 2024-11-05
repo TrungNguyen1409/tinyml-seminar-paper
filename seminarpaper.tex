@@ -133,7 +133,7 @@ In their paper on TinyOL (Tiny Machine Learning with Online Learning), Ren et al
 	\label{TinyOL}
 \end{figure}
 
-The core of TinyOL lies in the additional layer marked in red in Figure~\ref{TinyOL} reffered to as the \textbf{update layer} which consists of neurons that can be customized, initialied, and updated on the fly. This layer serves as an output layer that can adapt to new data while preserving the original network's structure. Following is the breakdown of each components in Figure~\ref{TinyOL}.
+The core of TinyOL lies in the additional layer marked in red in Figure~\ref{TinyOL} reffered to as the \textbf{update layer} which consists of neurons that can be customized, initialied, and updated on the fly. This layer serves as an output layer that can adapt to new data while preserving the original network's structure. Following is the breakdown of the other components in Figure~\ref{TinyOL}.
 
 \begin{itemize}
     \item \textbf{Streaming Data}:
@@ -144,9 +144,6 @@ The core of TinyOL lies in the additional layer marked in red in Figure~\ref{Tin
 
     \item \textbf{Scale Input}:
     After the TinyML model processes the input data, it passes through a scaling component. This step standardizes or normalizes the data to ensure it fits the model’s expected input distribution, helping maintain consistent performance as new data arrives.
-
-    \item \textbf{Update Layer}:
-    This is an adaptive layer within the TinyOL system, allowing the model to learn from new data on the fly. It dynamically updates its parameters based on incoming data, providing a mechanism for continuous learning without needing external retraining.
 
     \item \textbf{Make a Prediction}:
     After scaling and processing, the TinyOL system uses the model to make predictions. This decision node represents the point at which the system outputs a result based on the latest input data.
@@ -174,9 +171,11 @@ After processing each data point, TinyOL discards it to conserve memory. This ef
 \paragraph{Continuous Adaptation:}
 TinyOL’s architecture allows it to continuously adapt to new data patterns over time, addressing issues like \textbf{concept drift} and \textbf{data drift}. By updating model weights in real time, the system ensures that the deployed model remains relevant and can handle changes in input data characteristics that may not have been present during initial training.
 
-\subsubsection{Low-code management system}
+\subsubsection{Management of TinyML systems at scale}
 
 What is low-code: Low-code is a software development approach that enables the creation of applications through visual interfaces and minimal hand-coding. By utilizing drag-and-drop components and pre-built templates, low-code platforms streamline the development process, making it accessible to individuals with limited programming experience. This method accelerates application delivery, reduces costs, and fosters collaboration between business users and IT professionals. Low-code is particularly effective for developing business applications, automating workflows, and integrating systems, allowing organizations to respond swiftly to changing market demands
+
+\footnotetext{\url{https://www.ibm.com/topics/low-code/}} 
 
 MLOps for Scaling TinyML: TinyMLOps has some drawbacks
 
@@ -214,10 +213,6 @@ Enumerations using bullet points:
 \label{conclusion}
 
 
-
-% Put citations from bibtex into References section which were not
-% explicity cited.
-\nocite{hussein_original_2024,paul_rethinking_2021}
 
 
 \bibliographystyle{plain}
