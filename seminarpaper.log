@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  5 NOV 2024 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,7 +403,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--251
  []\OT1/cmr/bx/n/10 Chronic Dis-ease Man-age-ment:[] \OT1/cmr/m/n/10 TinyML-
  []
 
-(./seminarpaper.bbl
+[7] (./seminarpaper.bbl
 Underfull \hbox (badness 3229) in paragraph at lines 10--15
 []\OT1/cmr/m/n/10 Youssef Abadade, Anas Temouden, Ha-tim
  []
@@ -413,7 +413,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 17--22
 \OT1/cmr/m/n/10 On Pre-dic-tive Main-te-nance in In-dus-try 4.0:
  []
 
-[7]
+
 Underfull \hbox (badness 2221) in paragraph at lines 37--41
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
@@ -423,17 +423,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 []\OT1/cmr/m/n/10 Andrew Zal-divar Mar-garet Mitchell, Si-
  []
 
-) [8] (./seminarpaper.aux)
+[8]) [9
+
+] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 774897AF1DDD9B82175C0E72BD135D07;4900.
  ) 
 Here is how much of TeX's memory you used:
- 8512 strings out of 474116
- 133150 string characters out of 5743682
+ 8513 strings out of 474116
+ 133156 string characters out of 5743682
  1946187 words of memory out of 5000000
  30708 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
@@ -450,10 +456,10 @@ texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (8 pages, 457532 bytes).
+Output written on seminarpaper.pdf (9 pages, 460342 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
