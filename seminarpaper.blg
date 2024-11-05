@@ -14,48 +14,50 @@ Warning--empty year in noauthor_microcontroller_nodate
 Warning--empty journal in antonini_tiny-mlops_2022
 Warning--empty journal in bhamare_chapter_2024
 Warning--empty journal in mitchell_model_2019
+Warning--empty journal in ooko_tinyml_2021
 Warning--empty journal in ren_tinyol_2021
 Warning--empty journal in ren_how_2022
 Warning--empty journal in tsoukas_tinyml-based_2022
-You've used 15 entries,
+Warning--empty journal in tsoukas_tinyml-based_2023
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            576 strings with 7189 characters,
-and the built_in function-call counts, 5207 in all, are:
-= -- 504
-> -- 259
-< -- 5
-+ -- 106
-- -- 88
-* -- 380
-:= -- 835
-add.period$ -- 44
-call.type$ -- 15
-change.case$ -- 89
+            608 strings with 8436 characters,
+and the built_in function-call counts, 7743 in all, are:
+= -- 748
+> -- 417
+< -- 7
++ -- 170
+- -- 144
+* -- 588
+:= -- 1260
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 135
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 199
-empty$ -- 378
-format.name$ -- 88
-if$ -- 1082
+cite$ -- 37
+duplicate$ -- 278
+empty$ -- 535
+format.name$ -- 144
+if$ -- 1591
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 13
-newline$ -- 76
-num.names$ -- 26
-pop$ -- 115
+int.to.str$ -- 21
+missing$ -- 19
+newline$ -- 107
+num.names$ -- 38
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 114
 quote$ -- 0
-skip$ -- 158
+skip$ -- 220
 stack$ -- 0
-substring$ -- 285
-swap$ -- 49
-text.length$ -- 5
+substring$ -- 445
+swap$ -- 67
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
-warning$ -- 14
-while$ -- 47
-width$ -- 17
-write$ -- 151
-(There were 14 warnings)
+type$ -- 84
+warning$ -- 16
+while$ -- 70
+width$ -- 23
+write$ -- 217
+(There were 16 warnings)

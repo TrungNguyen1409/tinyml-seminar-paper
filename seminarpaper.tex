@@ -207,11 +207,53 @@ This approach addresses the challenges of \textbf{updating models on distributed
 
 \subsection{Industrial Predictive Maintenance}
 
+Predictive Maintenance (PdM) refers to a practice where business, based on series of historical and failure data, to predict in the future potential health and availability of aquiqments as well as anticipate defects in advance before they occur, thereby increase equipment lifespan, reduce downtime and operating cost \cite{ooko_application_2024}. The practice of consantly observing and predicting has its own inherent flaws and challenges such as financial and organizational constraints, limited source of historical data, and deployment of suitable PdM model \cite{zonta_predictive_2020}. 
+
+TinyML offers a promising solution to several challenges by enabling intelligent predictive maintenance through embedded, low-power machine learning algorithms that can process data directly on the device. Unlike traditional ML in PdM, which typically relies on centralized data centers and cloud infrastructure, TinyML method helps close the gap in deploying predictive maintenance models by reduce the dependence on large-scale data infrastructure and addressing data source and computational limitations \cite{abadade_comprehensive_2023}. By allowing edge devices to process and analyze data locally, TinyML reduces the need for extensive data transmission and storage \cite{ooko_tinyml_2021}. This enhances the efficiency and reliability of IoT systems by ensuring that only relevant, actionable insights are sent back to the central system.
+
+\subsubsection{TinyML vs. Standard ML}
+
+According to \cite{achouch_predictive_2022,zonta_predictive_2020}, there are 80\% solutions for PdM found in literatures are ML-based and only 20\% are TinyML-based. This shows that the TinyML-based solutions in industry are still under-discovered as it still has certain weaknesses compared to Standard ML approaches.
+
+Standard ML models operation requires a lot more computational power, however, as result, are able to hanlde complex sitations at higher accuracy. On the other hand, Standard ML performs with high latency and power consumption, due to the need to transmit data to servers which poses security breaches.
+
+\subsubsection{Use Cases in PdM}
+
+\paragraph{Anomaly Detection}
+\paragraph{Operational Monitoring and Analysis}
+\paragraph{Health and Condition Monitoring}
+\paragraph{Predictive Maintenance}
+
+
+
 \subsection{Smart Agriculture}
+TinyML is poised to play a crucial role in the future of smart agriculture. By enabling real-time, on-device data processing and decision-making, TinyML is empowering farmers to optimize resource usage, increase productivity, and promote sustainable farming practices. As the technology continues to evolve, we can expect to see even more innovative applications of TinyML in agriculture, contributing to global food security and environmental sustainability.
+\cite{tsoukas_tinyml-based_2023} presents a smart agriculture system based on tinyML and why tinyML can solve some of the long-existing challenges of agriculture.
 
-\subsection{Edge AI and Autonomous Systems}
+\subsubsection{Precision Agriculture}
+
+\paragraph{Soil Monitoring}
+\paragraph{Crop Health Monitoring}
+\paragraph{Weather Monitoringg}
+
+\subsubsection{Resource Optimization}
+\paragraph{Smart Irrigation}
+\paragraph{Precision Fertilization}
+
+\subsubsection{Automated Farming Operations}
 
 
+
+\subsection{Healthcare Monitoring}
+
+\subsubsection{Wearable Health Monitoring Devices}
+\paragraph{Chronic Disease Management:}TinyML-powered wearables can monitor vital signs such as heart rate, blood pressure, and glucose levels in real-time. This allows for continuous assessment of patients with chronic conditions like diabetes or hypertension, enabling timely interventions and personalized treatment plans.
+\paragraph{Early Detection of Health Anomalies:}Devices equipped with TinyML can detect early signs of health issues by analyzing patterns in physiological data. For instance, changes in heart rate variability or oxygen saturation can be monitored to predict potential cardiac events or respiratory issues.
+\paragraph{Fitness and Activity Tracking:}
+Fitness trackers using TinyML can provide detailed analysis of physical activities, sleep patterns, and calorie expenditure. This data helps users maintain healthy lifestyles by offering personalized recommendations based on their activity levels.
+Health care for factory workers - detection whether somebody about to faint
+
+In conclusion, TinyML holds great promise for transforming healthcare monitoring by enabling real-time, personalized health insights through low-power wearable devices. As technology advances, its impact on improving patient care and outcomes is expected to grow significantly.
 
 
 \section{Future of TinyML }

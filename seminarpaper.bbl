@@ -6,6 +6,20 @@ Microcontroller market research, 2030.
 \bibitem{noauthor_microcontroller_nodate}
 Microcontroller {Market} {Size}, {Share} \& {Trends} {By} 2034.
 
+\bibitem{abadade_comprehensive_2023}
+Youssef Abadade, Anas Temouden, Hatim Bamoumen, Nabil Benamar, Yousra Chtouki,
+  and Abdelhakim~Senhaji Hafid.
+\newblock A {Comprehensive} {Survey} on {TinyML}.
+\newblock {\em IEEE Access}, 11:96892--96922, 2023.
+\newblock Conference Name: IEEE Access.
+
+\bibitem{achouch_predictive_2022}
+Mounia Achouch, Mariya Dimitrova, Khaled Ziane, Sasan Sattarpanah~Karganroudi,
+  Rizck Dhouib, Hussein Ibrahim, and Mehdi Adda.
+\newblock On {Predictive} {Maintenance} in {Industry} 4.0: {Overview},
+  {Models}, and {Challenges}.
+\newblock {\em Applied Sciences}, 12(16), January 2022.
+
 \bibitem{antonini_tiny-mlops_2022}
 Mattia Antonini, Miguel Pincheira, Massimo Vecchio, and Fabio Antonelli.
 \newblock Tiny-{MLOps}: a framework for orchestrating {ML} applications at the
@@ -35,6 +49,18 @@ Dina Hussein, Dina Ibrahim, and Norah Alajlan.
 Andrew~Zaldivar Margaret~Mitchell, Simone~Wu.
 \newblock Model {Cards} for {Model} {Reporting}.
 \newblock 2019.
+
+\bibitem{ooko_application_2024}
+Samson Ooko and Simon Karume.
+\newblock Application of {Tiny} {Machine} {Learning} in {Predicative}
+  {Maintenance} in {Industries}.
+\newblock {\em Journal of Computing Theories and Applications}, 2:131--150,
+  August 2024.
+
+\bibitem{ooko_tinyml_2021}
+Samson~Otieno Ooko, Marvin Muyonga~Ogore, Jimmy Nsenga, and Marco Zennaro.
+\newblock {TinyML} in {Africa}: {Opportunities} and {Challenges}.
+\newblock pages 1--6, December 2021.
 
 \bibitem{paul_rethinking_2021}
 Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
@@ -88,5 +114,17 @@ A.~Navaas Roshan, B.~Gokulapriyan, C.~Siddarth, and Priyanka Kokil.
 Vasileios Tsoukas, Anargyros Gkogkidis, and Athanasios Kakarountas.
 \newblock A {TinyML}-based {System} {For} {Smart} {Agriculture}.
 \newblock pages 207--212, November 2022.
+
+\bibitem{tsoukas_tinyml-based_2023}
+Vasileios Tsoukas, Anargyros Gkogkidis, and Athanasios Kakarountas.
+\newblock A {TinyML}-based {System} {For} {Smart} {Agriculture}.
+\newblock pages 207--212, March 2023.
+
+\bibitem{zonta_predictive_2020}
+Tiago Zonta, Cristiano~André da~Costa, Rodrigo da~Rosa~Righi, Miromar~José
+  de~Lima, Eduardo~Silveira da~Trindade, and Guann~Pyng Li.
+\newblock Predictive maintenance in the {Industry} 4.0: {A} systematic
+  literature review.
+\newblock {\em Computers \& Industrial Engineering}, 150:106889, December 2020.
 
 \end{thebibliography}
