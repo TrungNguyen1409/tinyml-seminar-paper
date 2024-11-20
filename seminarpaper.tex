@@ -2,6 +2,7 @@
 
 %\usepackage[iso]{umlaute}
 %\usepackage{german}
+\usepackage{breakurl}
 \usepackage{graphicx}
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{1ex}
@@ -217,11 +218,23 @@ According to \cite{achouch_predictive_2022,zonta_predictive_2020}, there are 80\
 
 Standard ML models operation requires a lot more computational power, however, as result, are able to hanlde complex sitations at higher accuracy. On the other hand, Standard ML performs with high latency and power consumption, due to the need to transmit data to servers which poses security breaches.
 
+At the edge, where electricity and network connectivity are limited, TinyML proves to be a more viable solution for PdM tasks. 
+
 \subsubsection{Use Cases in PdM}
 
 \paragraph{Anomaly Detection}
+
+In extreme enviroments such as at the ocean where thousands of wind turbines are deployed, TinyML has been applied to detect misbehaviors and early signs defections in turbines by analyzing turbines' spin behaviors. First, a study shows that novel sensors such as the ISM330IS Inertial Measurement Unit (IMU) from STMicroelectronics enables an onboard Intelligent Sensor Processing Unit (ISPU) that allows some data processing to be computed on-board. In combination with Infrared thermography and continous line laser thermography techniques to visualize damage in wind turbines, TinyML models can provides real-time analysis and defect detection at the edge without extensive data transmission \cite{rabbi_novel_nodate}. 
+
+Another study showcased a system designed to detect anomalies in submersible pumps at wastewater plants. This system leverages an ESP32DEVKIT microcontroller paired with temperature and vibration sensors. By employing an Isolation Forest model for edge-based anomaly detection, the study highlights the feasibility of retrofitting existing equipment with TinyML capabilities.\cite{antonini_tinyml_2022}
+
+In a research that delpoyes a tinyML model on ESP-WROOM-32 MCU, thermal images of machinaries can also be analyzed. Infered data is then sent via MQTT only upon detection of anomalies to enhance maintenance efficiency. \cite{oliveira_edge_2022}
+
 \paragraph{Operational Monitoring and Analysis}
-\paragraph{Health and Condition Monitoring}
+
+In extreme environments, continuous monitoring of machinery operations becomes increasingly critical, as maintenance and repair costs tend to escalate over time \footnote{\url{https://www.theaemt.com/resource/navigating-condition-monitoring-challenges-in-hazardous-areas.html?t}}. TinyML enables continous monitor for operational efficiency, safetz, or specific conditions indicative of the need for interventions.
+
+
 \paragraph{Predictive Maintenance}
 
 
@@ -237,6 +250,7 @@ TinyML is poised to play a crucial role in the future of smart agriculture. By e
 \paragraph{Crop Health Monitoring}
 \paragraph{Weather Monitoringg}
 \footnote{\url{https://blues.com/use-cases/smart-farming-with-iot-and-machine-learning/}}
+
 
 \subsubsection{Resource Optimization}
 \paragraph{Smart Irrigation}

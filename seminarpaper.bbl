@@ -27,6 +27,13 @@ Mattia Antonini, Miguel Pincheira, Massimo Vecchio, and Fabio Antonelli.
 \newblock pages 1--8, May 2022.
 \newblock ISSN: 2473-4691.
 
+\bibitem{antonini_tinyml_2022}
+Mattia Antonini, Miguel Pincheira, Massimo Vecchio, and Fabio Antonelli.
+\newblock A {TinyML} approach to non-repudiable anomaly detection in extreme
+  industrial environments.
+\newblock In {\em 2022 {IEEE} {International} {Workshop} on {Metrology} for
+  {Industry} 4.0 \& {IoT} ({MetroInd4}.0\&{IoT})}, pages 397--402, June 2022.
+
 \bibitem{bhamare_chapter_2024}
 Mamta Bhamare, Pradnya~V. Kulkarni, Rashmi Rane, Sarika Bobde, and Ruhi
   Patankar.
@@ -50,6 +57,12 @@ Andrew~Zaldivar Margaret~Mitchell, Simone~Wu.
 \newblock Model {Cards} for {Model} {Reporting}.
 \newblock 2019.
 
+\bibitem{oliveira_edge_2022}
+Vítor~M. Oliveira and António H.~J. Moreira.
+\newblock Edge {AI} {System} {Using} a {Thermal} {Camera} for {Industrial}
+  {Anomaly} {Detection}.
+\newblock pages 172--187, 2022.
+
 \bibitem{ooko_application_2024}
 Samson Ooko and Simon Karume.
 \newblock Application of {Tiny} {Machine} {Learning} in {Predicative}
@@ -68,6 +81,11 @@ Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
   {Prediction} for {Edge} {Devices} with {Extremely} {Low} {Memory}
   {Footprint}, February 2021.
 \newblock arXiv:2011.13741.
+
+\bibitem{rabbi_novel_nodate}
+Fazle Rabbi.
+\newblock A {Novel} {Approach} {For} {Defect} {Detection} {Of} {Wind} {Turbine}
+  {Blade} {Using} {Virtual} {Reality} {And} {Deep} {Learning}.
 
 \bibitem{ray_review_2022}
 Partha~Pratim Ray.
