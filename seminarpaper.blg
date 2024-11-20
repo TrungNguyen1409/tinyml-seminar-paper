@@ -5,12 +5,16 @@ The style file: plain.bst
 Database file #1: seminarpaper.bib
 Warning--to sort, need author or key in noauthor_microcontroller_nodate
 Warning--to sort, need author or key in grandviewresearch_research_2023
+Warning--to sort, need author or key in noauthor_smart_nodate
 Warning--empty author in grandviewresearch_research_2023
 Warning--empty journal in grandviewresearch_research_2023
 Warning--empty year in grandviewresearch_research_2023
 Warning--empty author in noauthor_microcontroller_nodate
 Warning--empty journal in noauthor_microcontroller_nodate
 Warning--empty year in noauthor_microcontroller_nodate
+Warning--empty author in noauthor_smart_nodate
+Warning--empty journal in noauthor_smart_nodate
+Warning--empty year in noauthor_smart_nodate
 Warning--empty journal in antonini_tiny-mlops_2022
 Warning--empty journal in bhamare_chapter_2024
 Warning--empty journal in mitchell_model_2019
@@ -22,45 +26,45 @@ Warning--empty journal in ren_tinyol_2021
 Warning--empty journal in ren_how_2022
 Warning--empty journal in tsoukas_tinyml-based_2022
 Warning--empty journal in tsoukas_tinyml-based_2023
-You've used 24 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            623 strings with 9186 characters,
-and the built_in function-call counts, 8884 in all, are:
-= -- 862
-> -- 460
+            632 strings with 9739 characters,
+and the built_in function-call counts, 9477 in all, are:
+= -- 917
+> -- 494
 < -- 9
-+ -- 189
-- -- 158
-* -- 657
-:= -- 1429
-add.period$ -- 71
-call.type$ -- 24
-change.case$ -- 151
++ -- 203
+- -- 170
+* -- 708
+:= -- 1526
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 163
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 331
-empty$ -- 625
-format.name$ -- 158
-if$ -- 1841
+cite$ -- 49
+duplicate$ -- 352
+empty$ -- 666
+format.name$ -- 170
+if$ -- 1957
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 22
-newline$ -- 121
-num.names$ -- 44
-pop$ -- 181
+int.to.str$ -- 26
+missing$ -- 24
+newline$ -- 130
+num.names$ -- 46
+pop$ -- 195
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 137
 quote$ -- 0
-skip$ -- 266
+skip$ -- 279
 stack$ -- 0
-substring$ -- 526
-swap$ -- 87
+substring$ -- 552
+swap$ -- 88
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 19
-while$ -- 82
-width$ -- 26
-write$ -- 245
-(There were 19 warnings)
+type$ -- 104
+warning$ -- 23
+while$ -- 86
+width$ -- 28
+write$ -- 263
+(There were 23 warnings)

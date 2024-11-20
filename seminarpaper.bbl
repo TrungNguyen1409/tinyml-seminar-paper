@@ -6,6 +6,10 @@ Microcontroller market research, 2030.
 \bibitem{noauthor_microcontroller_nodate}
 Microcontroller {Market} {Size}, {Share} \& {Trends} {By} 2034.
 
+\bibitem{noauthor_smart_nodate}
+Smart {Objects} {\textbar} {Proceedings} of the 20th {ACM} {Conference} on
+  {Embedded} {Networked} {Sensor} {Systems}.
+
 \bibitem{abadade_comprehensive_2023}
 Youssef Abadade, Anas Temouden, Hatim Bamoumen, Nabil Benamar, Yousra Chtouki,
   and Abdelhakim~Senhaji Hafid.
@@ -45,6 +49,17 @@ Miguel de~Prado, Manuele Rusci, Romain Donze, Alessandro Capotondi, Serge
   Monnerat, Luca~Benini And, and Nuria Pazos.
 \newblock Robustifying the {Deployment} of {tinyML} {Models} for {Autonomous}
   mini-vehicles, July 2020.
+
+\bibitem{giordano_design_2022}
+Marco Giordano, Nicolas Baumann, Michele Crabolu, Raphael Fischer, Giovanni
+  Bellusci, and Michele Magno.
+\newblock Design and {Performance} {Evaluation} of an {Ultralow}-{Power}
+  {Smart} {IoT} {Device} {With} {Embedded} {TinyML} for {Asset} {Activity}
+  {Monitoring}.
+\newblock {\em IEEE Transactions on Instrumentation and Measurement}, 71:1--11,
+  2022.
+\newblock Conference Name: IEEE Transactions on Instrumentation and
+  Measurement.
 
 \bibitem{hussein_original_2024}
 Dina Hussein, Dina Ibrahim, and Norah Alajlan.

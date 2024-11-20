@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  20 NOV 2024 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  20 NOV 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,36 +430,52 @@ us-[]areas .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 [][][][]$\OT1/cmtt/m/n/8 https : / / blues . com / use-[]cases /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
  []\OT1/cmr/bx/n/10 Chronic Dis-ease Man-age-ment:[] \OT1/cmr/m/n/10 TinyML-
  []
 
-[7] (./seminarpaper.bbl
-Underfull \hbox (badness 3229) in paragraph at lines 10--15
+[7] (./seminarpaper.bbl [8]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+0.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+
+Underfull \hbox (badness 1314) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 Con-fer-ence on Em-bed-ded Net-worked Sen-sor
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 14--19
 []\OT1/cmr/m/n/10 Youssef Abadade, Anas Temouden, Ha-tim
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 17--22
+Underfull \hbox (badness 1005) in paragraph at lines 21--26
 \OT1/cmr/m/n/10 On Pre-dic-tive Main-te-nance in In-dus-try 4.0:
  []
 
-[8]
-Underfull \hbox (badness 2221) in paragraph at lines 44--48
+
+Underfull \hbox (badness 2221) in paragraph at lines 48--52
 []\OT1/cmr/m/n/10 Miguel de Prado, Manuele Rusci, Ro-main
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 []\OT1/cmr/m/n/10 Andrew Zal-divar Mar-garet Mitchell, Si-
  []
 
-) [9] (./seminarpaper.aux)
+[9]) [10
+
+] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -468,13 +484,13 @@ Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
 (rerunfilecheck)             Checksum: 774897AF1DDD9B82175C0E72BD135D07;4900.
  ) 
 Here is how much of TeX's memory you used:
- 8771 strings out of 474116
- 137577 string characters out of 5743682
+ 8796 strings out of 474116
+ 138031 string characters out of 5743682
  1947187 words of memory out of 5000000
- 30945 multiletter control sequences out of 15000+600000
+ 30964 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1370b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1370b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -483,13 +499,14 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (9 pages, 465897 bytes).
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on seminarpaper.pdf (10 pages, 475929 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
  200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
