@@ -24,6 +24,12 @@ Mounia Achouch, Mariya Dimitrova, Khaled Ziane, Sasan Sattarpanah~Karganroudi,
   {Models}, and {Challenges}.
 \newblock {\em Applied Sciences}, 12(16), January 2022.
 
+\bibitem{annadata_tinyml_2024}
+Yagna S~H Annadata, Vishnuvaradhan Moganarengam, and Tooraj Nikoubin.
+\newblock {TinyML} {Powered} {Drone} in {Agriculture} {Application}.
+\newblock pages 1--6, April 2024.
+\newblock ISSN: 2766-5186.
+
 \bibitem{antonini_tiny-mlops_2022}
 Mattia Antonini, Miguel Pincheira, Massimo Vecchio, and Fabio Antonelli.
 \newblock Tiny-{MLOps}: a framework for orchestrating {ML} applications at the
@@ -43,6 +49,12 @@ Mamta Bhamare, Pradnya~V. Kulkarni, Rashmi Rane, Sarika Bobde, and Ruhi
   Patankar.
 \newblock Chapter 14 - {TinyML} applications and use cases for healthcare.
 \newblock pages 331--353, January 2024.
+
+\bibitem{bhattacharya_deploying_2024}
+Saurabh Bhattacharya and Manju Pandey.
+\newblock Deploying an energy efficient, secure \& high-speed sidechain-based
+  {TinyML} model for soil quality monitoring and management in agriculture.
+\newblock {\em Expert Systems with Applications}, 242:122735, May 2024.
 
 \bibitem{de_prado_robustifying_2020}
 Miguel de~Prado, Manuele Rusci, Romain Donze, Alessandro Capotondi, Serge

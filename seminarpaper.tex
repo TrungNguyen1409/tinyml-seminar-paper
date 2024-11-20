@@ -232,35 +232,32 @@ In a research that delpoyes a tinyML model on ESP-WROOM-32 MCU, thermal images o
 
 \paragraph{Operational Monitoring and Analysis}
 
-In extreme environments, continuous monitoring of machinery operations becomes increasingly critical, as maintenance and repair costs tend to escalate over time \footnote{\url{https://www.theaemt.com/resource/navigating-condition-monitoring-challenges-in-hazardous-areas.html?t}}. TinyML enables continous monitor for operational efficiency, safetz, or specific conditions indicative of the need for interventions.
+In extreme environments, continuous monitoring of machinery operations becomes increasingly critical, as maintenance and repair costs tend to escalate over time . TinyML enables continous monitor for operational efficiency, safetz, or specific conditions indicative of the need for interventions.
 
 A study has been demonstrated for real-time impact localization on thin plastic plates using low-power, resource-constrained IoT devices. This approach leverages data from piezoelectric sensors and employs machine learning models, specifically Random Forest and Shallow Neural Networks, to analyze impact locations. The implementation runs efficiently on an Arduino NANO 33 BLE microcontroller, showcasing the feasibility of deploying such systems on embedded devices. \cite{noauthor_smart_nodate}.
 
 
 Another use case involves an ultralow-power Smart IoT device designed to monitor the activity of handheld power tools in construction environments. Utilizing TinyML for edge processing, the system categorizes tool usage into various operational modes, including transport, no-load, metal drilling, and wood drilling. This categorization enables optimized maintenance, extended tool lifecycles, and enhanced safety measures. The device features temperature, humidity, and acceleration sensors for data collection and employs Bluetooth Low Energy (BLE) and Near Field Communication (NFC) technologies for efficient communication and activation. \cite{giordano_design_2022}
 
-
+\footnote{\url{https://www.theaemt.com/resource/navigating-condition-monitoring-challenges-in-hazardous-areas.html?t}}
 
 \subsection{Smart Agriculture}
 Other sector that TinyML has the most influence on is Agriculture.  By enabling real-time, on-device data processing and decision-making, TinyML is empowering farmers to optimize resource usage, increase productivity, and promote sustainable farming practices. As the technology continues to evolve, we can expect to see even more innovative applications of TinyML in agriculture, contributing to global food security and environmental sustainability.
-\cite{tsoukas_tinyml-based_2023} presents a smart agriculture system based on tinyML and why tinyML can solve some of the long-existing challenges of agriculture.
+
+
+\subsubsection{Precision Agriculture}
+A recent study explores the integration of Tiny Machine Learning (TinyML) with Unmanned Aerial Vehicles (UAVs) for precision agriculture applications. Using the Edge Impulse framework and ESP EYE 32, the study optimizes key parameters to minimize resource use while maintaining accuracy. Experiments highlight the effectiveness of single-labeled data for disease classification, achieving 91.67\% testing accuracy in binary classification. This work demonstrates the transformative potential of TinyML-powered UAVs in agriculture, making the way for intelligent, resource-efficient systems. \cite{annadata_tinyml_2024}
+
+
+\paragraph{Crop, Soil Monitoring and Automated Farming Operations}
+
+Another research proposes a power- and delay-aware TinyML model optimized for agricultural soil quality monitoring \cite{bhattacharya_deploying_2024}. After applying advanced techniques Dynamic Voltage and Frequency Scaling (DVFS), Sleep/Wake Strategies, Energy Harvesting, and Task Partitioning, , the model achieves an 8.5\% reduction in energy consumption and a 10.4\% decrease in delay while maintaining high accuracy. The model enables real-time monitoring of soil parameters like moisture, pH, and nutrients using low-power microcontrollers, providing timely insights for improved soil management. The system can be trained to initiate watering based on specific environmental conditions, ensuring efficient water use and reducing waste. This approach extends device battery life, reduces environmental impact, and supports sustainable, resource-efficient agriculture. 
+
+Furthermore, Tsouka et al. presents a smart agriculture system based on tinyML. By integrating cameras with TinyML models, early detection of crop diseases and pest infestations becomes possible, allowing for timely interventions. \cite{tsoukas_tinyml-based_2023}
+
+The integration of TinyML with embedded systems leads to cost savings by optimizing resource usage, reducing manual labor, and minimizing waste. This contributes to more economically viable farming practices.
 
 \footnote{\url{https://github.com/SaiJeevanPuchakayala/FarmWiser}}
-\subsubsection{Precision Agriculture}
-
-\paragraph{Soil Monitoring}
-\paragraph{Crop Health Monitoring}
-\paragraph{Weather Monitoringg}
-\footnote{\url{https://blues.com/use-cases/smart-farming-with-iot-and-machine-learning/}}
-
-
-\subsubsection{Resource Optimization}
-\paragraph{Smart Irrigation}
-\paragraph{Precision Fertilization}
-
-\subsubsection{Automated Farming Operations}
-
-
 
 \subsection{Healthcare Monitoring}
 
@@ -272,6 +269,7 @@ Fitness trackers using TinyML can provide detailed analysis of physical activiti
 Health care for factory workers - detection whether somebody about to faint
 
 In conclusion, TinyML holds great promise for transforming healthcare monitoring by enabling real-time, personalized health insights through low-power wearable devices. As technology advances, its impact on improving patient care and outcomes is expected to grow significantly.
+
 
 
 \section{Future of TinyML }
