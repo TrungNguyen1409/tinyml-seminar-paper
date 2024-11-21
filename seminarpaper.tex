@@ -245,7 +245,7 @@ Another use case involves an ultralow-power Smart IoT device designed to monitor
 Other sector that TinyML has the most influence on is Agriculture.  By enabling real-time, on-device data processing and decision-making, TinyML is empowering farmers to optimize resource usage, increase productivity, and promote sustainable farming practices. As the technology continues to evolve, we can expect to see even more innovative applications of TinyML in agriculture, contributing to global food security and environmental sustainability.
 
 
-\subsubsection{Precision Agriculture}
+\paragraph{Precision Agriculture}
 A recent study explores the integration of Tiny Machine Learning (TinyML) with Unmanned Aerial Vehicles (UAVs) for precision agriculture applications. Using the Edge Impulse framework and ESP EYE 32, the study optimizes key parameters to minimize resource use while maintaining accuracy. Experiments highlight the effectiveness of single-labeled data for disease classification, achieving 91.67\% testing accuracy in binary classification. This work demonstrates the transformative potential of TinyML-powered UAVs in agriculture, making the way for intelligent, resource-efficient systems. \cite{annadata_tinyml_2024}
 
 
@@ -253,24 +253,19 @@ A recent study explores the integration of Tiny Machine Learning (TinyML) with U
 
 Another research proposes a power- and delay-aware TinyML model optimized for agricultural soil quality monitoring \cite{bhattacharya_deploying_2024}. After applying advanced techniques Dynamic Voltage and Frequency Scaling (DVFS), Sleep/Wake Strategies, Energy Harvesting, and Task Partitioning, , the model achieves an 8.5\% reduction in energy consumption and a 10.4\% decrease in delay while maintaining high accuracy. The model enables real-time monitoring of soil parameters like moisture, pH, and nutrients using low-power microcontrollers, providing timely insights for improved soil management. The system can be trained to initiate watering based on specific environmental conditions, ensuring efficient water use and reducing waste. This approach extends device battery life, reduces environmental impact, and supports sustainable, resource-efficient agriculture. 
 
-Furthermore, Tsouka et al. presents a smart agriculture system based on tinyML. By integrating cameras with TinyML models, early detection of crop diseases and pest infestations becomes possible, allowing for timely interventions. \cite{tsoukas_tinyml-based_2023}
+Furthermore, another paper presents a smart agriculture system based on tinyML. By integrating cameras with TinyML models, early detection of crop diseases and pest infestations becomes possible, allowing for timely interventions. \cite{tsoukas_tinyml-based_2023}. The integration of TinyML with embedded systems leads to cost savings by optimizing resource usage, reducing manual labor, and minimizing waste. This contributes to more economically viable farming practices.
 
-The integration of TinyML with embedded systems leads to cost savings by optimizing resource usage, reducing manual labor, and minimizing waste. This contributes to more economically viable farming practices.
 
 \footnote{\url{https://github.com/SaiJeevanPuchakayala/FarmWiser}}
 
 \subsection{Healthcare Monitoring}
 
-\subsubsection{Wearable Health Monitoring Devices}
-\paragraph{Chronic Disease Management:}TinyML-powered wearables can monitor vital signs such as heart rate, blood pressure, and glucose levels in real-time. This allows for continuous assessment of patients with chronic conditions like diabetes or hypertension, enabling timely interventions and personalized treatment plans.
-\paragraph{Early Detection of Health Anomalies:}Devices equipped with TinyML can detect early signs of health issues by analyzing patterns in physiological data. For instance, changes in heart rate variability or oxygen saturation can be monitored to predict potential cardiac events or respiratory issues.
-\paragraph{Fitness and Activity Tracking:}
-Fitness trackers using TinyML can provide detailed analysis of physical activities, sleep patterns, and calorie expenditure. This data helps users maintain healthy lifestyles by offering personalized recommendations based on their activity levels.
-Health care for factory workers - detection whether somebody about to faint
+Besides disrupting smart agriculture, the integration of TinyML into healthcare is transforming how medical data is collected, processed, and analyzed, particularly in remote and resource-constrained environments. By enabling real-time analysis directly on low-power devices, TinyML is revolutionizing patient monitoring and diagnostics, offering solutions that are not only efficient but also scalable. From wearable devices tracking vital signs to portable systems detecting critical health conditions, TinyML is reshaping the future of personalized healthcare. Below, we explore specific use cases where TinyML is making significant strides in healthcare monitoring.
 
-In conclusion, TinyML holds great promise for transforming healthcare monitoring by enabling real-time, personalized health insights through low-power wearable devices. As technology advances, its impact on improving patient care and outcomes is expected to grow significantly.
+A recent paper presents a TinyML-based cardiac monitoring device for real-time detection of cardiac signals using ECG and PPG waveforms. Built with low-cost sensors (Sparkfun AD8232 and MAX30102) and an Arduino Nano 33 BLE microcontroller, the device processes signals efficiently at the edge. The system achieves high accuracy, with 98.8\% for ECG and 100\% for PPG, while minimizing energy consumption through optimized, quantized models. By enabling rapid analysis and reliable metrics like Heart Rate Variability (HRV) and stress levels, the device demonstrates its potential for accessible, real-time healthcare, especially in remote or resource-constrained environments.\cite{r_tiny_2024}
 
 
+Another paper assesses an application of TinyML to healthcare monitoring through CNNs for real-time on-edge blood pressure (BP) estimation. By leveraging photoplethysmogram (PPG) signals, this work eliminates the need for traditional cuff-based devices and server-based solutions, overcoming issues such as latency, privacy concerns, and dependency on network connectivity. It incorporates optimized CNN architectures—such as AlexNet, LeNet, and MobileNet—modified with techniques like pruning and quantization to fit the constrained resources of microcontrollers (MCUs). The methodology achieves compliance with medical standards, demonstrating a balance of accuracy, low energy consumption, and real-time response. This innovative approach enables continuous BP monitoring on low-power devices, significantly enhancing accessibility and reliability in personalized healthcare applications. \cite{sun_case_2023}
 
 \section{Future of TinyML }
 \label{future_of_tinyml}
@@ -278,6 +273,8 @@ In conclusion, TinyML holds great promise for transforming healthcare monitoring
 The future of TinyML holds immense potential as it continues to evolve to meet the demands of diverse industrial applications. Key trends that are expected to drive TinyML's progress include advancements in model optimization techniques, integration with edge AI, and improvements in hardware capabilities. Enhanced techniques like federated learning for TinyML could allow devices to learn collaboratively without sharing raw data, addressing both data privacy and adaptability in dynamic environments. Additionally, further development in quantization, pruning, and neural architecture search will allow models to be more efficiently deployed on constrained devices, expanding TinyML’s applicability.
 
 The expansion of 5G and the evolution of connectivity standards may also accelerate TinyML adoption, as these advancements could support more reliable intermittent connectivity for edge devices. This would facilitate more frequent model updates and allow TinyML models to synchronize with central systems when needed, even in remote areas. Another future direction is the integration of TinyML with the Internet of Things (IoT) on a larger scale, making real-time analytics accessible across widespread networks of low-power devices. TinyML is also expected to expand in areas like smart cities, environmental monitoring, and autonomous systems, where real-time data processing on edge devices is crucial. As the ecosystem grows, more low-code platforms and management frameworks, such as SeLoC-ML, will likely emerge, empowering a broader range of professionals to develop, deploy, and maintain TinyML systems effectively.
+
+
 
 \section{Conclusion}
 \label{conclusion}

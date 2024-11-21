@@ -27,45 +27,45 @@ Warning--empty journal in ren_tinyol_2021
 Warning--empty journal in ren_how_2022
 Warning--empty journal in tsoukas_tinyml-based_2022
 Warning--empty journal in tsoukas_tinyml-based_2023
-You've used 28 entries,
+You've used 29 entries,
             2118 wiz_defined-function locations,
-            643 strings with 10223 characters,
-and the built_in function-call counts, 10174 in all, are:
-= -- 987
-> -- 525
-< -- 10
-+ -- 215
-- -- 180
-* -- 757
-:= -- 1641
-add.period$ -- 83
-call.type$ -- 28
-change.case$ -- 174
+            647 strings with 10470 characters,
+and the built_in function-call counts, 10582 in all, are:
+= -- 1026
+> -- 543
+< -- 11
++ -- 222
+- -- 186
+* -- 784
+:= -- 1702
+add.period$ -- 86
+call.type$ -- 29
+change.case$ -- 180
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 379
-empty$ -- 717
-format.name$ -- 180
-if$ -- 2103
+cite$ -- 53
+duplicate$ -- 398
+empty$ -- 752
+format.name$ -- 186
+if$ -- 2194
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 26
-newline$ -- 141
-num.names$ -- 50
-pop$ -- 205
+int.to.str$ -- 29
+missing$ -- 27
+newline$ -- 146
+num.names$ -- 52
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 151
 quote$ -- 0
-skip$ -- 300
+skip$ -- 314
 stack$ -- 0
-substring$ -- 596
-swap$ -- 94
-text.length$ -- 10
+substring$ -- 617
+swap$ -- 101
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 116
 warning$ -- 24
-while$ -- 94
-width$ -- 30
-write$ -- 286
+while$ -- 99
+width$ -- 31
+write$ -- 297
 (There were 24 warnings)

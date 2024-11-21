@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  20 NOV 2024 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  21 NOV 2024 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,7 +316,7 @@ Overfull \hbox (52.40555pt too wide) in paragraph at lines 54--54
 
 pdfTeX warning: pdflatex (file ./resource/tinyml_deployment.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<resource/tinyml_deployment.pdf, id=111, 457.71pt x 233.9139pt>
+<resource/tinyml_deployment.pdf, id=99, 457.71pt x 233.9139pt>
 File: resource/tinyml_deployment.pdf Graphic file (type pdf)
 <use resource/tinyml_deployment.pdf>
 Package pdftex.def Info: resource/tinyml_deployment.pdf  used on input line 59.
@@ -380,7 +380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
 pdfTeX warning: pdflatex (file ./resource/tinyol_on_mcu.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<resource/tinyol_on_mcu.pdf, id=191, 486.85887pt x 234.8775pt>
+<resource/tinyol_on_mcu.pdf, id=179, 486.85887pt x 234.8775pt>
 File: resource/tinyol_on_mcu.pdf Graphic file (type pdf)
 <use resource/tinyol_on_mcu.pdf>
 Package pdftex.def Info: resource/tinyol_on_mcu.pdf  used on input line 131.
@@ -402,7 +402,7 @@ o-
 
 pdfTeX warning: pdflatex (file ./resource/KG.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<resource/KG.pdf, id=239, 825.0825pt x 413.62529pt>
+<resource/KG.pdf, id=227, 825.0825pt x 413.62529pt>
 File: resource/KG.pdf Graphic file (type pdf)
 <use resource/KG.pdf>
 Package pdftex.def Info: resource/KG.pdf  used on input line 185.
@@ -436,9 +436,8 @@ es a
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
- []\OT1/cmr/bx/n/10 Chronic Dis-ease Man-age-ment:[] \OT1/cmr/m/n/10 TinyML-
- []
+
+LaTeX Warning: Citation `r_tiny_2024' on page 8 undefined on input line 265.
 
 [8] (./seminarpaper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
@@ -479,11 +478,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--86
 []\OT1/cmr/m/n/10 Andrew Zal-divar Mar-garet Mitchell, Si-
  []
 
-[9]) [10] (./seminarpaper.aux)
+[9]) [10
+
+] (./seminarpaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 Package rerunfilecheck Warning: File `seminarpaper.out' has changed.
@@ -491,23 +495,19 @@ Package rerunfilecheck Warning: File `seminarpaper.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `seminarpaper.out':
-(rerunfilecheck)             Before: 774897AF1DDD9B82175C0E72BD135D07;4900
-(rerunfilecheck)             After:  EE3CE3E439877E7344F99E4102E6A1B4;4510.
+(rerunfilecheck)             Before: B6F284A14E41E84A4FB2FD9573FA7D09;4263
+(rerunfilecheck)             After:  83CD6CA98F6BA31120A189619619ED3F;4087.
  ) 
 Here is how much of TeX's memory you used:
- 8794 strings out of 474116
- 138073 string characters out of 5743682
+ 8786 strings out of 474116
+ 137931 string characters out of 5743682
  1947187 words of memory out of 5000000
- 30966 multiletter control sequences out of 15000+600000
+ 30963 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,1370b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{subsubsection.4.2.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.4.2.2} has been referenced but does n
+pdfTeX warning (dest): name{subsubsection.4.2.1} has been referenced but does n
 ot exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
@@ -522,10 +522,10 @@ ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (10 pages, 477135 bytes).
+Output written on seminarpaper.pdf (10 pages, 476965 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
