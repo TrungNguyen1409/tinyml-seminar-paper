@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  21 NOV 2024 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  21 NOV 2024 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,7 +642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-
+[7]
 Underfull \hbox (badness 2088) in paragraph at lines 243--244
 \OT1/cmr/m/n/10 lo-ca-tions. The im-ple-men-ta-tion runs ef-fi-ciently
  []
@@ -657,7 +657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[7]
+
 Underfull \hbox (badness 2799) in paragraph at lines 259--260
 \OT1/cmr/bx/n/10 ing Op-er-a-tions[] \OT1/cmr/m/n/10 An-other re-search pro-pos
 es a
@@ -768,7 +768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-
+[9]
 Underfull \hbox (badness 1331) in paragraph at lines 294--295
 \OT1/cmr/m/n/10 farm-ers with pre-ci-sion tools for mon-i-tor-ing soil
  []
@@ -783,7 +783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
@@ -875,7 +875,7 @@ live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (11 pages, 480748 bytes).
+Output written on seminarpaper.pdf (11 pages, 480804 bytes).
 PDF statistics:
  430 PDF objects out of 1000 (max. 8388607)
  353 compressed objects within 4 object streams
