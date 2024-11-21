@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  21 NOV 2024 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  21 NOV 2024 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,21 +679,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 269--270
-\OT1/cmr/m/n/10 and an Ar-duino Nano 33 BLE mi-cro-con-troller,
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 269--270
-\OT1/cmr/m/n/10 The sys-tem achieves high ac-cu-racy, with 98.8%
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 269--270
-\OT1/cmr/m/n/10 for ECG and 100% for PPG, while min-i-miz-ing
- []
-
-
 Underfull \hbox (badness 1067) in paragraph at lines 269--270
 \OT1/cmr/m/n/10 lev-els, the de-vice demon-strates its po-ten-tial for
  []
@@ -852,8 +837,15 @@ Underfull \hbox (badness 1137) in paragraph at lines 177--181
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `seminarpaper.out' has not changed.
-(rerunfilecheck)             Checksum: 9C3FBA274A4D02AA2DF9ADC30B0DBBEE;4089.
+
+
+Package rerunfilecheck Warning: File `seminarpaper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `seminarpaper.out':
+(rerunfilecheck)             Before: 9C3FBA274A4D02AA2DF9ADC30B0DBBEE;4089
+(rerunfilecheck)             After:  9B33539A836E8DE5EE2F831C520B5CCE;4089.
  ) 
 Here is how much of TeX's memory you used:
  8791 strings out of 474116
@@ -862,7 +854,7 @@ Here is how much of TeX's memory you used:
  30966 multiletter control sequences out of 15000+600000
  563480 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1435b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1435b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -875,7 +867,7 @@ live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on seminarpaper.pdf (11 pages, 480804 bytes).
+Output written on seminarpaper.pdf (11 pages, 480718 bytes).
 PDF statistics:
  430 PDF objects out of 1000 (max. 8388607)
  353 compressed objects within 4 object streams
