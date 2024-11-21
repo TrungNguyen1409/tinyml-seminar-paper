@@ -86,13 +86,19 @@ than at an external server or cloud.
 
 \paragraph{Model Training:}
 	The preprocessed data is then fed into an ML framework, where a machine learning model is trained. This stage involves using machine learning algorithms to find patterns in the data, building a predictive or analytical model that can generalize from the data. For example, in the renewable energy industry, a neural network might be trained to recognize defect from wind turbine from features extracted from relevant sensors. The model is trained to detect patterns and relationships in the data, creating a predictive system that generalizes to unseen inputs. \\[0.10cm]
-	
+
 \paragraph{Model Conversion:}
-	Once the model is trained, it is converted into a format suitable for deployment on resource-constrained devices, like microcontrollers. This step might involve techniques such as quantization (reducing the precision of model weights) or pruning (removing unnecessary parts of the model) to reduce the model’s size and computation needs.\\[0.10cm]
+	Model conversion is the part when the ML model becomes tiny, hence TinyML. Once the model is trained, it is converted into a format suitable for deployment on resource-constrained devices, like microcontrollers. This step might involve techniques such as quantization (reducing the precision of model weights) or pruning (removing unnecessary parts of the model) to reduce the model’s size and computation needs. These techniques ensure the model fits within the memory and processing limits of edge devices.
+	\\[0.10cm]
+
 \paragraph{Model Packaging:}
-	After conversion, the model is packaged into a deployable form. This includes bundling the model with any necessary runtime components to allow it to be executed efficiently on the target device.\\[0.10cm]
+	In this step, the converted model is packaged with all necessary runtime components to enable execution on the target device. This includes bundling the model with any necessary runtime components to allow it to be executed efficiently on the target device. For example, one can bundle a TensorFlow Lite model with inference libraries that allow it to run on microcontrollers like Raspberry Pi Pico. Packaging ensures the model is ready for deployment in a streamlined and executable format.
+	\\[0.10cm]
+
 \paragraph{Deployment:}
-	The next step involves deploying the packaged model onto an IoT device. This means transferring the model to the device, setting it up for real-time inference or operation in the field.\\[0.10cm]
+	The next step involves deploying the model onto an IoT device. This means transferring the model to the device, configuring it to run in the intended application and setting it up for real-time inference or operation in the field. For example, to deploy a fall-detection model on an Arduino Nano 33 BLE Sense, it means to upload the code and model to the Arduino via USB. Test the device with simulated falls, and once validated, it can run locally, detecting falls in real-time and triggering alerts.\\[0.10cm]
+
+
 \paragraph{Inference:}
 	Finally, the deployed model performs inference on the IoT device. Inference refers to the process of using the model to make predictions or decisions based on new data collected by the IoT device. The model operates locally on the device without needing continuous cloud connectivity, enabling real-time decision-making at the edge.\\[0.10cm]
 
