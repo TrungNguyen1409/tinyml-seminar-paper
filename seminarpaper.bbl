@@ -24,6 +24,11 @@ Mounia Achouch, Mariya Dimitrova, Khaled Ziane, Sasan Sattarpanah~Karganroudi,
   {Models}, and {Challenges}.
 \newblock {\em Applied Sciences}, 12(16), January 2022.
 
+\bibitem{aemt_navigating_nodate}
+AEMT.
+\newblock Navigating {Condition} {Monitoring} {Challenges} in {Hazardous}
+  {Areas}.
+
 \bibitem{annadata_tinyml_2024}
 Yagna S~H Annadata, Vishnuvaradhan Moganarengam, and Tooraj Nikoubin.
 \newblock {TinyML} {Powered} {Drone} in {Agriculture} {Application}.
@@ -108,6 +113,13 @@ Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
   {Prediction} for {Edge} {Devices} with {Extremely} {Low} {Memory}
   {Footprint}, February 2021.
 \newblock arXiv:2011.13741.
+
+\bibitem{prakash_tinyml_2024}
+Shvetank Prakash, Emil Njor, Colby Banbury, Matthew Stewart, Vijay Janapa
+  Reddi~on May~6, and {2024}.
+\newblock {TinyML}: {Why} the {Future} of {Machine} {Learning} is {Tiny} and
+  {Bright}.
+\newblock {\em SIGARCH}, May 2024.
 
 \bibitem{r_tiny_2024}
 Purushothaman R, Praveena N.G, and Sivachandar K.
