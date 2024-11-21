@@ -113,9 +113,7 @@ Aditya~Jyoti Paul, Puranjay Mohan, and Stuti Sehgal.
 Purushothaman R, Praveena N.G, and Sivachandar K.
 \newblock Tiny {ML}-{Based} {Non}-{Invasive} {Approach} of {Cardiac}
   {Monitoring}.
-\newblock In {\em 2024 {Ninth} {International} {Conference} on {Science}
-  {Technology} {Engineering} and {Mathematics} ({ICONSTEM})}, pages 1--6, April
-  2024.
+\newblock pages 1--6, April 2024.
 
 \bibitem{rabbi_novel_nodate}
 Fazle Rabbi.
@@ -162,6 +160,12 @@ A.~Navaas Roshan, B.~Gokulapriyan, C.~Siddarth, and Priyanka Kokil.
 \newblock In {\em 2021 {Sixth} {International} {Conference} on {Wireless}
   {Communications}, {Signal} {Processing} and {Networking} ({WiSPNET})}, pages
   451--455, March 2021.
+
+\bibitem{sun_case_2023}
+Bailian Sun, Safin Bayes, Abdelrhman~Mohamed Abotaleb, and Mohamed Hassan.
+\newblock The {Case} for {tinyML} in {Healthcare}: {CNNs} for {Real}-{Time}
+  {On}-{Edge} {Blood} {Pressure} {Estimation}.
+\newblock pages 629--638, June 2023.
 
 \bibitem{tsoukas_tinyml-based_2022}
 Vasileios Tsoukas, Anargyros Gkogkidis, and Athanasios Kakarountas.
